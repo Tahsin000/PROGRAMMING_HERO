@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitha Form</title>
+    <style>
+        label{
+            display: block;
+            margin: .5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Welcome to jamal er Ma Pitha Ghor</h2>
+    <form action="">
+        <label for="name">your name
+            <input type="name" id="name" placeholder="your name">
+        </label>
+        
+        <label for="email">Your email
+            <input type="email" id="email" placeholder="Your email">
+        </label>
+
+        <label for="phone">Your phone
+            <input type="phone" id="phone" placeholder="Your phone">
+        </label>
+        
+        <fieldset>
+            <legend>Pick one pitha</legend>
+            <label for="chitoy">
+                <input type="radio" name="pitha" id="chitoy">
+                Chitoy
+            </label>
+            <label for="vapa">
+                <input type="radio" name="pitha" id="vapa">
+                vapa
+            </label>
+            <label for="Coconut">
+                <input type="radio" name="pitha" id="Coconut">
+                Coconut
+            </label>
+       </fieldset> 
+
+        <fieldset>
+            <legend>Select one or more vortas</legend>
+            <label for="srisa">
+                <input type="checkbox" name="vortas" id="srisa">
+                Srisa
+            </label>
+            <label for="shutki">
+                <input type="checkbox" name="vortas" id="shutki">
+                shutki
+            </label>
+            <label for="dal">
+                <input type="checkbox" name="vortas" id="dal">
+                Dal
+            </label>
+       </fieldset> 
+       <input type="reset" value="reset">
+       <input type="submit" value="submit">
+    </form>
+</body>
+</html>
