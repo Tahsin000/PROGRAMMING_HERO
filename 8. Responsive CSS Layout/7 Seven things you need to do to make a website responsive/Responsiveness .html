@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    h1{
+      font-size: 3em;
+    }
+    img{
+      width: 100%;
+    }
+    body{
+      border: 2px solid black;
+      width: 1080px;
+      margin: 0 auto;
+    }
+    .container-tow{
+      display: flex;
+    }
+    .container-tow .split{
+      width:50%;
+    }
+    @media screen and (max-width:567px) {
+      body{
+        border: 2px solid black;
+        width: 400px;
+        margin: 0 auto;
+      }
+    }
+    @media screen and (min-width:568px) and (max-width:1080px) {
+      body{
+        border: 2px solid black;
+        width: 650px;
+        margin: 0 auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <h1>MY Responsive Website</h1>
+  </section>
+  <section class="img-1">
+    <img src="img/food-2.jpg" alt="">
+  </section>
+  <section class="tow-col">
+    <h2>Tow part</h2>
+    <div class="container-tow">
+      <div class="split">
+        <img src="img/food-2.jpg" alt="">
+      </div>
+      <div class="split">
+        <img src="img/food-1.jpg" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- 
+    1. viewport meta tag
+    2. CSS Relative unit
+    3. Responsive image (fluid Image)
+    4. body max-with and margin auto
+    5. Responsive split screen using flex
+
+   -->
+</body>
+</html>
