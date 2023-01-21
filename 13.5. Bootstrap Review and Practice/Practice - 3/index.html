@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../assets/style/bootstrap.min.css" rel="stylesheet"/>
+    <style>
+        :root{
+            --sz:10rem;
+            --color-primary: #1fb659;
+            
+        }
+        .size{
+            height: var(--sz);        
+        }
+        .col-12 .card, .color-cards{
+            background-color: var(--color-primary);
+            color: white;
+        }
+        .text-justify{
+            text-align: justify;
+        }
+    </style>
+    <title>Bootstrap flex </title>
+</head>
+<body>
+    <!-- ___________________________________________________ -->
+    <div class="container">
+        <div class="display-2 text-center p-4">Bootstrap flex [row, column]</div>
+        <div class="row ">
+            <div class="col-12 col-md-4 g-2">
+                <div class="card p-3">
+                    <h3 class="card-title">Title-1</h3>
+                    <hr>
+                    <div class="card-body">
+                        <p class="text-justify">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia tenetur doloremque, temporibus quae dolorem, totam provident quisquam asperiores 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 g-2">
+                <div class="card p-3">
+                    <h3 class="card-title">Title-2</h3>
+                    <hr>
+                    <div class="card-body">
+                        <p class="text-justify">
+                            
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia tenetur doloremque, temporibus quae dolorem, totam provident quisquam asperiores 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 g-2">
+                <div class="card p-3">
+                    <h3 class="card-title">Title-3</h3>
+                    <hr>
+                    <div class="card-body">
+                        <p class="text-justify">
+                            
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia tenetur doloremque, temporibus quae dolorem, totam provident quisquam asperiores 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-12 col-md-4 g-2">
+                <div class="card p-3">
+                    <h3 class="card-title">Title-4</h3>
+                    <hr>
+                    <div class="card-body">
+                        <p class="text-justify">
+                            
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia tenetur doloremque, temporibus quae dolorem, totam provident quisquam asperiores 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 g-2">
+                <div class="card p-3">
+                    <h3 class="card-title">Title-5</h3>
+                    <hr>
+                    <div class="card-body">
+                        <p class="text-justify">
+                            
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia tenetur doloremque, temporibus quae dolorem, totam provident quisquam asperiores 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 g-2">
+                <div class="card p-3">
+                    <h3 class="card-title">Title-6</h3>
+                    <hr>
+                    <div class="card-body">
+                        <p class="text-justify">
+                            
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia tenetur doloremque, temporibus quae dolorem, totam provident quisquam asperiores 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-12 col-md-4 g-2">
+                <div class="card p-3">
+                    <h3 class="card-title">Title-7</h3>
+                    <hr>
+                    <div class="card-body">
+                        <p class="text-justify">
+                            
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia tenetur doloremque, temporibus quae dolorem, totam provident quisquam asperiores 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ___________________________________________________ -->
+    <div class="container">
+    <div class="display-2 text-center p-4">Bootstrap flex-wrap</div>
+
+        <div class="d-flex justify-content-between flex-wrap">
+            <div class="col-sm-4">
+                <div class="card p-3 color-cards m-1">
+                    <h3 class="card-title">Title-1</h3>
+                    <hr>
+                    <div class="card-body">
+                        <p class="text-justify">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia tenetur doloremque, temporibus quae dolorem, totam provident quisquam asperiores 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card p-3 color-cards m-1">
+                    <h3 class="card-title">Title-2</h3>
+                    <hr>
+                    <div class="card-body">
+                        <p class="text-justify">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia tenetur doloremque, temporibus quae dolorem, totam provident quisquam asperiores 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card p-3 color-cards m-1">
+                    <h3 class="card-title">Title-3</h3>
+                    <hr>
+                    <div class="card-body">
+                        <p class="text-justify">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia tenetur doloremque, temporibus quae dolorem, totam provident quisquam asperiores 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card p-3 color-cards m-1">
+                    <h3 class="card-title">Title-4</h3>
+                    <hr>
+                    <div class="card-body">
+                        <p class="text-justify">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia tenetur doloremque, temporibus quae dolorem, totam provident quisquam asperiores 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card p-3 color-cards m-1">
+                    <h3 class="card-title">Title-5</h3>
+                    <hr>
+                    <div class="card-body">
+                        <p class="text-justify">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia tenetur doloremque, temporibus quae dolorem, totam provident quisquam asperiores 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card p-3 color-cards m-1">
+                    <h3 class="card-title">Title-6</h3>
+                    <hr>
+                    <div class="card-body">
+                        <p class="text-justify">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia tenetur doloremque, temporibus quae dolorem, totam provident quisquam asperiores 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card p-3 color-cards m-1">
+                    <h3 class="card-title">Title-7</h3>
+                    <hr>
+                    <div class="card-body">
+                        <p class="text-justify">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia tenetur doloremque, temporibus quae dolorem, totam provident quisquam asperiores 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/jquery-3.2.1.slim.min.js"></script>
+</body>
+</html>
