@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Poppins:wght@200;400;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-consultation{
+    background-color: #B68C5A;
+    color: white;
+    border: 0;
+    transition: .15s ease-in-out;
+}
+.btn-consultation:hover{
+    background-color: #a17642;
+    color: white;
+}
+.bg-navbar{
+    color: #B68C5A;
+}
+.banner{
+    height: 550px;
+    background-image: url("../images/Rectangle 4.png"), url("../images/Rectangle 5.png");
+
+    background-blend-mode:darken;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.banner-title{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 3.5rem;
+    font-family: 'EB Garamond';
+}
+.banner-subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    color: #E7E7E7;
+}
+.container-input-btn{
+    height: 4rem;
+}
+.container-btn{
+    width:10rem;
+}

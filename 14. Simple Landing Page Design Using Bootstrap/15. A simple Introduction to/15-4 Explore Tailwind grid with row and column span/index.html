@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../assets/js/style.js"></script>
+    <title>2 Compare Tailwind classes with bootstrap classes</title>
+</head>
+<body>
+    <!-- Text size -->
+    <h1>Text-size</h1>
+    <h3 class="text-4xl mx-auto w-1/6 bg-sky-900 p-4 rounded-3xl text-white">I have a secret tail</h3>
+    <h1>background</h1>
+    <h3 class="text-3xl bg-yellow-400 font-bold">background color</h3>
+    <!-- this is btn -->
+    <button class="bg-sky-400 p-3 rounded-2xl text-white hover:bg-sky-600">Click ME</button>
+
+    <section>
+        <h1 class="text-4xl mx-auto w-1/2 bg-sky-900 p-4 rounded-3xl text-white">3 Tailwind Flexbox and compare with bootstrap</h1>
+        <div class="h-64 bg-indigo-200 w-1/3 flex justify-center items-center">
+            <h4 class="bg-yellow-300 p-3 rounded-2xl text-3xl">Height {h-56}</h4>
+        </div>
+    </section>
+
+    <section class="bg-blue-100">
+        <h4 class="bg-yellow-300 p-3 rounded-2xl text-center font-bold text-3xl">flex { justify-around }</h4>
+        <div class="flex justify-around">
+            <div class="rounded-2xl bg-purple-300 p-2"> BoX-1</div>
+            <div class="rounded-2xl bg-purple-300 p-2"> BoX-2</div>
+            <div class="rounded-2xl bg-purple-300 p-2"> BoX-3</div>
+        </div>
+    </section>
+    <section>
+        <h4 class="bg-yellow-300 p-3 rounded-2xl text-center font-bold text-3xl">grid</h4>
+        <div class="grid grid-cols-3 gap-4 p-4">
+            <div class="bg-sky-400">1</div>
+            <div class="bg-sky-400">2</div>
+            <div class="bg-sky-400">3</div>
+            <div class="bg-sky-400">4</div>
+            <div class="bg-sky-400">5</div>
+            <div class="bg-sky-400">6</div>
+            <div class="bg-sky-400">7</div>
+            <div class="bg-sky-400">8</div>
+            <div class="bg-sky-400">9</div>
+            <div class="bg-sky-400">10</div>
+            <div class="bg-sky-400">11</div>
+            <div class="bg-sky-400">12</div>
+        </div>
+    </section>
+    <section>
+        <h4 class="bg-yellow-300 p-3 rounded-2xl text-center font-bold text-3xl">grid column and row span</h4>
+        <div class="grid grid-cols-4 gap-4 p-4">
+            <div class="bg-green-400 p-3 row-span-4">1</div>
+            <div class="bg-red-400 col-span-2 p-3">2</div>
+            <div class="bg-sky-400 p-3">3</div>
+            <div class="bg-sky-400 p-3">4</div>
+            <div class="bg-sky-400 p-3">5</div>
+            <div class="bg-sky-400 p-3">6</div>
+            <div class="bg-sky-400 p-3">7</div>
+            <div class="bg-sky-400 p-3">8</div>
+            <div class="bg-sky-400 p-3">9</div>
+            <div class="bg-sky-400 p-3">10</div>
+            <div class="bg-sky-400 p-3">11</div>
+            <div class="bg-sky-400 p-3">12</div>
+        </div>
+    </section>
+    <section>
+        <h4 class="bg-yellow-300 p-3 rounded-2xl text-center font-bold text-3xl">My grid layout</h4>
+        <div class="grid grid-cols-4 gap-4">
+            <div class="bg-purple-300 text-4xl col-span-4 p-5">Header</div>
+            <div class="bg-purple-300 text-4xl col-span-3 h-56 p-5">Main Content</div>
+            <div class="bg-purple-300 text-4xl p-5">Side nav</div>
+            <div class="bg-purple-300 text-4xl col-span-4 p-5">Footer</div>
+        </div>
+    </section>
+</body>
+</html>
