@@ -1,0 +1,13 @@
+$my_color: rgb(51, 216, 188);
+$my_text: rgb(10, 48, 41);
+body {
+  background: $my_color;
+}
+.display {
+  display: flex;
+  justify-content: center;
+  color: $my_text;
+  align-items: center;
+  height: 100vh;
+  text-transform: uppercase;
+}

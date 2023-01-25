@@ -1,0 +1,48 @@
+$nav_bg_color: rgb(255, 243, 210);
+$my_color: rgb(51, 216, 188);
+$my_text: rgb(10, 48, 41);
+$nav_border: rgb(255, 47, 134);
+$font_body: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+body {
+  background: $my_color;
+  font-family: $font_body;
+}
+nav {
+  ul {
+    border: 2px solid $nav_border;
+    display: flex;
+    li {
+      padding: 2vh;
+      margin: 0.15vh;
+      color: purple; 
+      background-color: $nav_bg_color;
+      text-decoration: none;
+      list-style: none;
+      text-transform: uppercase;
+    }
+  }
+}
+.btn{
+  border: 1px solid red;
+  background-color:rgb(131, 10, 10);
+  color: rgb(255, 255, 255);
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-size: large;
+  transition: 0.2s ease-in;
+  &:hover{
+    background-color:rgb(255, 255, 255);
+    border: 1px solid rgb(131, 10, 10);
+    color: rgb(131, 10, 10);
+
+  }
+}
+.display {
+  display: flex;
+  justify-content: center;
+  color: $my_text;
+  align-items: center;
+  height: 100vh;
+  text-transform: uppercase;
+}

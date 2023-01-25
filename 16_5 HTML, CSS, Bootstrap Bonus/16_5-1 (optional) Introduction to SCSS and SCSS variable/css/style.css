@@ -1,0 +1,12 @@
+body {
+  background: rgb(51, 216, 188);
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  color: rgb(10, 48, 41);
+  align-items: center;
+  height: 100vh;
+  text-transform: uppercase;
+}/*# sourceMappingURL=style.css.map */

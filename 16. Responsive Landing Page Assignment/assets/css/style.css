@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Poppins:wght@200;400;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-consultation{
+    background-color: #B68C5A;
+    color: white;
+    border: 0;
+    transition:background-color .15s ease-in;
+}
+.btn-consultation:hover{
+    background-color: #a17642;
+    color: white;
+}
+.bg-navbar{
+    color: #B68C5A;
+}
+.banner{
+    height: 550px;
+    background-image: url("../images/Rectangle 4.png"), url("../images/Rectangle 5.png");
+
+    background-blend-mode:darken;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.banner-title{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 3.5rem;
+    font-family: 'EB Garamond';
+}
+.banner-subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    color: #E7E7E7;
+}
+.container-input-btn{
+    height: 4rem;
+}
+.container-btn{
+    width:10rem;
+}
+.practice-title{
+    font-family: 'EB Garamond';
+    color: #414040;
+    font-weight: 800;
+    font-size: 40px;
+}
+.practice-subtitle, .practice-card-subtitle,.cards-subtitle, .accordion-subtitle{
+    color: #707070;
+    font-family: 'Poppins';
+}
+.practice-card-title{
+    font-weight: 800;
+    font-family: 'EB Garamond';
+    font-size: 32px;
+    color: #414040;
+}
+.practice-cards .col{
+    background: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: 0.15s ease-in;
+    
+}
+.practice-cards .col:hover{
+    background: #f7f7f7;
+    transform: scale(1.015);
+}
+.centered {
+    position: absolute;
+    top: 85%;
+    left: 0%;
+    width: 100%;
+    /* transform: translate(-50%, -50%); */
+}
+.centered h5{
+    font-size: 2rem;
+    font-family: 'EB Garamond';
+}
+.bg-cards{
+    background-color: #F3F3F3;
+}
+.cards-title{
+    color: #414040;
+    font-weight: 800;
+    font-size: 24px;
+    font-family: 'EB Garamond';
+    
+}
+footer{
+    height: 506px;
+    background: #111111;    
+}
+.footer-title{
+    font-weight: 800;
+    font-size: 24px;
+    font-family: 'EB Garamond';
+}
+.footer-subtitle{
+    color: #CFCFCF;
+}
+.accordion-title{
+    font-size: 24px;
+    font-weight: 800;
+    font-family: 'EB Garamond';
+}
+
+@media screen and (max-width:576px) {
+    .centered {
+        top:100%;
+        /* transform: translate(-50%, -50%); */
+    }
+    .centered img{
+        width: 10%;
+        padding: 3%;
+    }
+    .centered h5{
+        font-size: 1rem;
+    }
+    .centered p{
+        font-size: 0.5rem;
+    }
+    footer{
+        height: 1000px;
+        background: #111111;    
+    }
+}
+/* .image-position{
+    position: relative;
+    text-align: center;
+    color: white;
+} */
