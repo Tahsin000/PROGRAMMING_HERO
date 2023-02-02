@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+       *{
+          padding: 0;
+          margin: 0;
+        }
+        .container {
+          text-align: center;
+          font-family: monospace;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          background-color: #ffc4c4;
+          flex-direction: column;
+        }
+        h1 {
+          font-size: 3rem;
+          font-weight: 700;
+        }
+        h2 {
+          font-size: 2rem;
+          font-weight: 700;
+        }
+        .output {
+          color: white;
+          background-color: #8b7354;
+          border-radius: 20px;
+        }
+        .Input-year,
+        .output-year {
+          height: 5em;
+          margin: 10px;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          border: 2px solid #282827;
+          border-radius: 5px;
+        }
+        .Input-year input,
+        .output-year input {
+          border-radius: 5px;
+          width: 90%;
+          height: 100%;
+          font-size: 1rem;
+          font-weight: 600;
+          background-color: #ffc4c4;
+          /* background-color: #39332c; */
+          border: 0;
+        }
+        input:focus {
+          outline: none;
+        }
+        .Input {
+          display: flex;
+          justify-content: space-around;
+          gap: 1rem;
+        }
+    </style>
+    <title>Leap Year or not</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Leap Year or not</h1>
+      <div class="Input">
+        <div class="Input-year">
+          <input
+            type="number"
+            id="year"
+            placeholder="Enter Any year"
+            onkeyup="myInputyear()"
+          />
+        </div>
+        <div class="output-year">
+          <input
+            type="text"
+            id="ans"
+            disabled
+          />
+        </div>
+      </div>
+    </div>
+    <script>
+      function myInputyear() {
+          var Km = document.getElementById("ans");
+          var year = document.getElementById("year").value;
+          var ans;
+          if ((year % 4 == 0 && year%100 != 0) || (year % 400 == 0)){
+            ans = "Leap Year";
+          }
+          else {
+            ans = "Not Leap Year"
+          }
+          Km.value = ans;
+      }
+    </script>
+  </body>
+</html>

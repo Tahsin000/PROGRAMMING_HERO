@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+       *{
+          padding: 0;
+          margin: 0;
+        }
+        .container {
+          text-align: center;
+          font-family: monospace;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          background-color: #c4d2ff;
+          flex-direction: column;
+        }
+        h1 {
+          font-size: 3rem;
+          font-weight: 700;
+        }
+        h2 {
+          font-size: 2rem;
+          font-weight: 700;
+        }
+        .output {
+          color: white;
+          background-color: #8b7354;
+          border-radius: 20px;
+        }
+        .Input-digit,
+        .InputKm {
+          height: 5em;
+          margin: 10px;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          border: 2px solid #282827;
+          border-radius: 5px;
+          text-align: center;
+        }
+        .Input-digit input,
+        .InputKm input {
+          border-radius: 5px;
+          width: 90%;
+          height: 100%;
+          font-size: 2rem;
+          font-weight: 600;
+          background-color: #c4d2ff;
+          text-align: center;
+          /* background-color: #39332c; */
+          border: 0;
+        }
+        input:focus {
+          outline: none;
+        }
+        .Input {
+          display: flex;
+          justify-content: space-around;
+          gap: 1rem;
+        }
+    </style>
+    <title>Sum of all numbers of an array</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Sum of all numbers of an array</h1>
+      <div class="Input">
+        <div class="Input-digit">
+          <input
+            type="text"
+            id="digit"
+            disabled
+          />
+        </div>
+      </div>
+    </div>
+    <script>
+       var n = parseInt(prompt("Enter array size : "));
+       var sum = 0;
+        for(let i=0; i<n; i++){
+            var input = parseInt(prompt("Enter "+ i+1 +" Element values:"));
+            sum += input ;
+        }
+        var ans = document.getElementById("digit").value = sum;
+    </script>
+  </body>
+</html>
