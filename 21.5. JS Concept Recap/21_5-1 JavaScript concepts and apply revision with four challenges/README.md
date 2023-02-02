@@ -1,71 +1,327 @@
-Module 21-5
+# 1. Reverse The String
 
-আজকে বুঝে নেয়ার, রিভিশন দেয়ার, প্রাকটিস করার দিন (মডিউল ২১.৫)
+```jsx
+const reverseMaker = (word) => {
+  //Write Your solution Here
+  var String = "";
+  var n = word.length;
+  for (let i = n - 1; i >= 0; i--) {
+    String += word[i];
+  }
+  return String;
+};
+```
 
-#module_release #basic_javascript_milestone #module_21_5
+# 2. Detect vowel and consonent
 
-কোন অবস্থাতে আজকে হেলা করবে না। অল্প বুঝে ছেড়ে দিও না। না বুঝলে বুঝাটা আজকে আদায় করে নাও। আজকে জাভাস্ক্রিপ্ট এর বেসিক জিনিগুলা অবশ্যই অবশ্যই বুঝে নিবে। দরকার হলে একবারের জায়গায় তিনবার সাপোর্ট সেশন এ। আসবে দরকার হলে একটার জায়গায় দুইটা প্রশ্ন করবে। কোড কাজ না করলে নিজে বুঝার চেষ্টা করবে। না পারলে অবশ্যই অবশ্যই গরূপে জিজ্ঞেস করবে। অর্থাৎ আজকে জাভাস্ক্রিপ্ট এর বেসিক কনসেপ্টগুলোর সাথে লেনাদেনা আদায় করে নিবে। আমাদের কাছ থেকে যদি হেল্প নেয়ার দরকার হয় সেটা অবশ্যই নিয়ে নিবে। লুপ কিভাবে কাজ করে ফাংশন কিভাবে কাজ করে কন্ডিশন কিভাবে কাজ করে সেটার বেসিক জিনিসগুলো অবশ্যই অবশ্যই শিখে নিবে। এই শিখে নেয়ার জন্যই তুমি এই কোর্স এ আসছো। সো, এখনই শিখে নেয়ার সময়। তাই আমাদের কাছ থেকে সর্বোচ্চটা আদায় করে নাও।
+```jsx
+const solution = (letter) => {
+  //Write Your solution Here
+  // a, e, i, o, u dont forget to return
+  if (
+    letter === "a" ||
+    letter === "e" ||
+    letter === "i" ||
+    letter === "o" ||
+    letter === "u"
+  ) {
+    return "VOWEL";
+  } else {
+    return "CONSONANT";
+  }
+};
+```
 
-.
+# 3. Calculate total cost
 
-যে প্রব্লেমগুলো আমি গতকাল দেখাইছি সেগুলা বুঝে নেয়ার কাজ আজকে। জাভাস্ক্রিপ্ট ধরে নেয়ার বুঝে নেয়ার কাজ আজকে। প্রথম টেনে সবাই বুঝে ফেলবে না। তবে না বুঝে লুকিয়ে থেকো না। আমাদের সাপোর্ট সেশনগুলাতে আসো। দরকার হলে ভিডিওগুলো আরেকবার দেখো। একবারের জায়গায় দুইবার দেখো। শুধু আমাদের ভিডিও এর উপরে নির্ভর করে বসে না থেকে। আমাদের বোনাস ভিডিও এর জন্য অপেক্ষা না করে। গুগলে সার্চ দাও। ইউটিউবে সার্চ দাও। সেখানে বিভিন্ন ভিডিওতে বিভিন্নভাবে সিমিলার জিনিস নিয়ে আলোচনা করা হয়েছে। হয়তো তুমি সব বুঝবে না। কখনো ৭০% জিনিস বুঝতে পারবে আবার কখনো ৮০% জিনিস মাথার উপর দিয়ে যাবে। তারপরেও তোমাকে দেখতে হবে। ট্রাই করতে হবে। হয়তো ইংরেজিতে একটু কাঁচা হবে। তারপরেও নিজের উপরে জোর করে বসে বসে দেখতে হবে। কারন আজকে একটু কষ্ট করলে সামনে এইটার ফল পাবে। এবং ইনডাইরেক্ট বেনিফিট হিসেবে তোমার ইংরেজি টিউটোরিয়াল দেখার অভ্যাস গড়ে উঠবে। যেটা ফিউচারে অনেক অনেক হেল্প করবে।
+```jsx
+const totalCost = (products) => {
+  // let product_01 = products[0].price;
+  // let product_02 = products[2].price;
+  // let product_03 = products[3].price;
+  var n = products.length;
+  var sum = 0;
+  for (let i = 0; i < n; i++) {
+    sum += products[i].price;
+  }
+  return sum;
+};
+```
 
-.
+# 4. Conditional Statements Switch
 
-গত চারটা, সাড়ে চারটা মডিউল এ জাভাস্ক্রিপ্ট এর যে কয়েকটা বেসিক কনসেপ্ট নিয়ে আলোচনা করা হয়েছে। সবগুলা ধরে ধরে রিভিশন দিবে। গত চারদিন যে যে নোটস নিয়েছো সেটা ধরে ধরে পড়ো। আজকে যে কন্সেপচুয়াল সেশন হয়েছে। সেখানে যেতে পারলে খুবই ভালো। না যেতে পারলে সেই ভিডিও দেখে ফেলবে।
+```jsx
+function getLetter(s) {
+  let letter;
+  let w = s.charAt(0);
+  switch (w) {
+    case "a":
+      letter = "A";
+      break;
+    case "e":
+      letter = "A";
+      break;
+    case "i":
+      letter = "A";
+      break;
+    case "o":
+      letter = "A";
+      break;
+    case "u":
+      letter = "A";
+      break;
+    case "b":
+      letter = "B";
+      break;
+    case "c":
+      letter = "B";
+      break;
+    case "d":
+      letter = "B";
+      break;
+    case "f":
+      letter = "B";
+      break;
+    case "g":
+      letter = "B";
+      break;
+    case "h":
+      letter = "C";
+      break;
+    case "j":
+      letter = "C";
+      break;
+    case "k":
+      letter = "C";
+      break;
+    case "l":
+      letter = "C";
+      break;
+    case "m":
+      letter = "C";
+      break;
+    default:
+      letter = "D";
+  }
+  // Write your code here
 
-বেসিক জাভাস্ক্রিপ্ট চেকলিস্ট
+  return letter;
+}
+```
 
-১. আমি যদি বলি তিনটা ভেরিয়েবল ডিক্লেয়ার করতে হবে। সেটা তোমাকে পারতে হবে।
+# 5. Delete a property from an object
 
-২. একটা লুপ লিখতে হবে যেটা ১ থেকে ১০০ পর্যন্ত যত সংখ্যা আছে সেটা দেখাবে
+```jsx
+const deleteProperty = (arr) => {
+  var temp = Object.keys(arr[0]);
+  var ObjectKeys = temp[0];
+  var arrSecondElement = arr[1];
+  var ans;
+  ObjectKeys === arrSecondElement ? (ans = "YES") : (ans = "NO");
+  return ans;
+};
+```
 
-৩. ৫০ থেকে ৮০ এর মধ্যে যতো বিজোড় সংখ্যা আছে সেগুলাকে দেখাবে।
+# 6. Convert temperature
 
-৪. তিনটা সংখ্যা এর যোগ করতে পারবে এমন একটা ফাংশন লিখো
+```jsx
+function temperatureConverter(valNum) {
+  var c = (valNum - 32) / 1.8;
+  return Math.round(c * 100) / 100;
+}
+```
 
-তুমি যদি ঠেকে ঠুকে কষ্টে মষ্টে জোড়াতালি দিয়ে হলেও করতে পারো। সেই লেভেলে যেতে হবে। জিনিসগুলা ১০০% হলে তো অবশ্যই ভালো। কোন কারণে ১০০% না হলেও ৮০% বুঝে নিতে হবে। দরকার হলে সময় দাও। শেখার জন্য ঘাম ঝরাতে হলে এখন ঝরাও।
+# 7. Subtraction Operation
 
-.
+```jsx
+function subtraction(num1, num2) {
+  return num1 - num2;
+}
+```
 
-ফাংশন আর অবজেক্ট একটু রিভিশন দিয়ে দাও
+# 8. Find the average
 
-১. ফাংশন কি জিনিস। এইটা কি কাজে লাগে এবং কিভাবে ফাংশন ডিক্লেয়ার করতে হয়
+```jsx
+function average(arrOfMarks) {
+  var sum = 0;
+  for (let i = 0; i < arrOfMarks.length; i++) {
+    sum += arrOfMarks[i];
+  }
+  return Math.round((sum / arrOfMarks.length) * 100) / 100;
+}
+```
 
-২. ফাংশনে কেন প্যারামিটার ব্যবহার করা হয়
+# 9. String Operation
 
-৩. কেন ফাংশন থেকে রিটার্ন করা হয়
+```jsx
+function stringCombine(str1, str2) {
+  return str1 + " " + str2;
+}
+```
 
-৪. রিটার্ন এর পর কিছু না লিখলে কি হয়
+# 10. Remainder Operation
 
-৫. রিটার্ন এর পর কি কি জিনিস লেখা যায়
+```jsx
+function findRemainder(mod) {
+  mod %= 5;
+  return mod;
+}
+```
 
-৬. এইটা আমরা বলিনি--তারপরেও গুগলে সার্চ দিয়ে দেখো: function declaration vs function expression এই দুইটা মধ্যে ডিফারেন্স কি
+# 11. Can you find out who will get the delicious cake (Part I)
 
-৭. Arrow function নিয়ে আমরা ফিউচারে শিখবো। এই কোর্স এ ই শিখবো। তারপরেও গুগলে সার্চ দাও: regular function vs arrow function
+```jsx
+function JimOrDela(marksOfJim, marksOfDela) {
+  return marksOfJim > marksOfDela ? "Jim" : "Dela";
+}
+```
 
-৮. ফাংশন এবং লুপ এর মধ্যে পার্থক্য কি
+# 12. Can you find out who will get the delicious cake (Part II)
 
-৯. অবজেক্ট এবং array এর মধ্যে ডিফারেন্স কি
+```jsx
+function JimOrDelaOrChinku(marksOfJim, marksOfDela, marksOfChinku) {
+  return marksOfJim > marksOfDela
+    ? "Jim"
+    : marksOfDela > marksOfChinku
+    ? "Dela"
+    : "Chinku";
+}
+```
 
-১০. কতভাবে অবজেক্ট থেকে কোন একটা প্রপার্টি এর মান পাওয়া যেতে পারে?
+# 13. What's my grade
 
-১১. ১০. কতভাবে অবজেক্ট থেকে কোন একটা প্রপার্টি এর মান বের করা যেতে পারে?
+```jsx
+function findGrade(marks) {
+  if (80 <= marks) return "A";
+  else if (60 <= marks) return "B";
+  else if (50 <= marks) return "C";
+  else if (40 <= marks) return "D";
+  else return "F";
+}
+```
 
-১২. (এডভান্সড) একটু কোড লিখে অবজেক্ট এর সব প্রপার্টি এর নাম এবং মান আউটপুট হিসেবে দেখাও।
+# 14. What is Jerry’s final score
 
-.
+```jsx
+function finalScore(scores) {
+  var sum = 0;
+  for (let i = 0; i < scores.length; i++) {
+    sum += scores[i];
+  }
+  return sum;
+}
+```
 
-এছাড়াও আজকের ভিডিওতে চারটা প্রব্লেম এর কথা বলেছি। সেগুলা মাস্ট প্রাকটিস করো। নিজে নিজে চিন্তা করো
+# 15. Find the largest number
 
-১. তোমাকে ফাংশনের ইনপুট হিসেবে সেলসিয়াস দিবে। তুমি ক্যালকুলেশন করে তাপমাত্রা ফারেনহাইট এ কনভার্ট করে সেটার আউটপুট রিটার্ন করবে
+```jsx
+function findMax(arr) {
+  return Math.max(...arr);
+}
+```
 
-২. একইভাবে উল্টা হিসাব করবে। যাতে তোমাকে ফারেনহাইট হিসেবে তাপমাত্রা দিলে সেটাকে সেলসিয়াস এ কনভার্ট করে আউটপুট দিবে।
+# 16. Is it Isosceles
 
-৩. কেউ ১০০ এর মধ্যে কত মার্ক্স্ পেয়েছে সেটা তোমাকে বলে দিবে। তুমি একটা ফাংশন দিয়ে বলে দিবে সে এ+ পাবে নাকি অন্য কোন গ্রেড পাবে।
+```jsx
+function checkTriangle(side1, side2, side3) {
+  return side1 == side2 && side1 == side3
+    ? "No"
+    : side1 == side3
+    ? "Yes"
+    : side2 == side3
+    ? "Yes"
+    : side1 == side2
+    ? "Yes"
+    : "No";
+}
+```
 
-৪. সুদের হিসাব করবে। জাস্ট হিসাব কেমনে করতে হয়। সেই চিন্তায় করবে। সুদ ভালো না খারাপ সেটা এখন চিন্তা করার দরকার নাই। জাস্ট একটা ফর্মুলা থাকলে সেটা কিভাবে কোড এ লিখতে হয় সেই এঙ্গেল থেকে করার চেষ্টা করো।
+# 17. Who is the tallest
 
-.
+```jsx
+function tallestFriend(height) {
+  return Math.max(...height);
+}
+```
 
-তোমার ফিউচার এর বীজ আজকেই বপন করতে হবে। হার্ডওয়ার্ক, ডেডিকেশন এবং ফোকাস এ রেখে তাকে যত্ন করতে হবে। যাতে ছয় মাস একবছর পরে তোমার হার্ডওয়ার্ক এর ফল পেতে পারো।
+# 18. Convert Hour to Minute
+
+```jsx
+function hourToMin(hour) {
+  return hour * 60;
+}
+```
+
+# 19. Write a code to find the smallest element of the array
+
+```jsx
+function findingSmallest(numbers) {
+  return Math.min(...numbers);
+}
+```
+
+# 20. Can you find the leap years
+
+```jsx
+function findLeapYear(arrOfYears) {
+  var year = [];
+  for (let i = 0; i < arrOfYears.length; i++) {
+    checkLeapYear(arrOfYears[i]) ? year.push(arrOfYears[i]) : 0;
+  }
+  return year;
+}
+function checkLeapYear(year) {
+  return (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;
+}
+```
+
+# 21. What are the odds
+
+```jsx
+function findOddSum(arrOfNumbers) {
+  var sum = 0;
+  for (let i = 0; i < arrOfNumbers.length; i++) {
+    arrOfNumbers[i] % 2 ? (sum += arrOfNumbers[i]) : 0;
+  }
+  return sum;
+}
+```
+
+# 22. Find the second largest
+
+```jsx
+function findArea(length, width) {
+  return length * width;
+}
+```
+
+# 23. Find the area of a rectangle
+
+```jsx
+function secondLargest(numbers) {
+  var sortElement = numbers.sort(function (a, b) {
+    return b - a;
+  });
+  return sortElement[1];
+}
+```
+
+# 24. Count the number of all zero
+
+```jsx
+function countZeros(binary_num) {
+  count = 0;
+  for (let i = 0; i < binary_num.length; i++) {
+    if (binary_num[i] === "0") count++;
+  }
+  return count;
+}
+```
+
+# 25. হ্যালো ইউনিভার্স
+
+```jsx
+function helloUniverse() {
+  return "Hello Universe!! Welcome me to JS World!!!";
+}
+```
