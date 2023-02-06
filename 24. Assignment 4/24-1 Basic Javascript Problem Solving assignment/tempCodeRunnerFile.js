@@ -1,0 +1,1 @@
+= 'number') && (typeof b === 'number') && (typeof c === 'number'));
