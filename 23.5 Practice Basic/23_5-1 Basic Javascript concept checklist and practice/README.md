@@ -67,4 +67,4 @@
 
 # isArray
 
-- The isArray() method determines whether the passed value is an Array. [towaha06@gmail.com](mailto:towaha06@gmail.com)
+- The isArray() method determines whether the passed value is an Array.
