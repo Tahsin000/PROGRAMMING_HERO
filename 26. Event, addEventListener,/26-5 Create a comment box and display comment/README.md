@@ -1,0 +1,33 @@
+# Create a comment box and display comment
+
+```jsx
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add new Comment</title>
+</head>
+<body>
+    <h1>Please add your comment</h1>
+    <div id="section">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat quisquam vitae placeat laborum inventore soluta voluptates! Consequuntur corrupti voluptatum provident eaque. Cupiditate libero esse consectetur dolore deleniti, nam in numquam repellat sed nemo ab alias qui repudiandae voluptatem officia ea ullam quo dignissimos, a minima! Placeat similique natus et itaque.</p>
+        <p>Incidunt ex voluptatem dolor quibusdam natus voluptatum laboriosam fuga optio tempora delectus. Aliquid nemo incidunt quo tempora odit! Eligendi error blanditiis quos hic illum rerum explicabo unde ipsam eveniet sint optio, iure minima tempora, totam ab esse ipsa officiis veritatis dicta accusamus! Inventore quis porro nesciunt quisquam deleniti praesentium magni.</p>
+        <p>Repudiandae, incidunt nulla ab iusto veniam nisi omnis illo soluta a, quibusdam saepe molestias? Nisi, vero assumenda provident adipisci consequatur culpa aliquid, eius iure, placeat ipsa recusandae. Tempore sunt nemo vero, temporibus labore amet sequi laudantium asperiores accusantium cumque molestias, et consectetur? Ad qui error voluptate pariatur distinctio laudantium corporis.</p>
+    </div>
+    <div>
+        <textarea name="" id="new-comment" cols="30" rows="10"></textarea>
+        <button id="postBtn">Post</button>
+    </div>
+    <script>
+        document.getElementById('postBtn').addEventListener("click", ()=>{
+            const pra = document.createElement('p');
+            pra.innerText = document.getElementById('new-comment').value;
+            document.getElementById('section').appendChild(pra);
+            document.getElementById('new-comment').value = '';
+        });
+    </script>
+</body>
+</html>
+```

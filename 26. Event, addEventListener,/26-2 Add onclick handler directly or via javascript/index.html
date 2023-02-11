@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM EVENTS</title>
+</head>
+<body>
+    <h1 onclick="console.log('i am clicked')">DOM er ajke special events</h1>
+    <button onclick="console.log(7)">Click ME</button>
+    <button onclick="console.log(65)">Other Click ME</button>
+    <br>
+    <hr>
+    <br>
+    <button onclick="document.body.style.backgroundColor = 'yellow'">Make yellow</button>
+    <button onclick="makeRed()">Make red</button>
+    <button id="makeBlue">Make Blue</button>
+    <button id="makePurple">Make purple</button>
+</body>
+<script>
+    // option 1: directly set on the
+    // option 2: add onclick function
+    // option: 3
+    function makeRed(){
+        const bg = document.body.style;
+        bg.backgroundColor = 'red';
+    }
+    const makeBlue = document.getElementById('makeBlue');
+    makeBlue.addEventListener("click", ()=>{
+        document.body.style.backgroundColor = 'blue';
+    });
+    
+    const makePurple = document.getElementById('makePurple');
+    makePurple.onclick = function (){
+        document.body.style.backgroundColor = 'purple';
+    }
+</script>
+</html>
