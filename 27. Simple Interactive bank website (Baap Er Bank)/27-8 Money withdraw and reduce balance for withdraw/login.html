@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <script src="../styles/tailwind.css"></script>
+  </head>
+  <body>
+    <section class="grid grid-cols-1">
+      <div
+        class="font-['poppins'] login-section flex justify-center items-center h-screen bg-red-400"
+      >
+        <div class="md:w-1/4 h-1/4">
+          <div class="userID flex flex-col">
+            <label for="" class="text-white font-light text-lg"
+              >Username :
+            </label>
+            <input
+              class="mt-2 rounded-md p-2"
+              type="email"
+              name=""
+              id="username"
+            />
+          </div>
+          <div class="userPin flex flex-col mt-5">
+            <label for="" class="text-white font-light text-lg"
+              >Password :
+            </label>
+            <input
+              class="mt-2 rounded-md p-2"
+              type="password"
+              name=""
+              id="userPassword"
+            />
+          </div>
+          <div class="flex justify-center items-center mt-7">
+            <button class="loginBtn bg-red-100 px-7 py-2 rounded-md">
+              Login
+            </button>
+          </div>
+          <p class="p-2 mt-1 warning text-gray-800 text-center"></p>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
