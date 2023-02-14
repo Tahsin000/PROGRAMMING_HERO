@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/tailwindcss.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>My Shopping Cart</h1>
+        <p>Welcome to my shopping cart</p>
+      </div>
+      <div class="main-content">
+        <h2>My Cart</h2>
+        <div class="grid grid-cols-2 mt-7 gap-5">
+          <div
+            class="w-full cart-item flex flex-col justify-center items-center"
+          >
+            <img class="mt-5" src="IMG.jpg" alt="product" />
+            <h4 class="text-2xl p-3">Fitbit Versa Smart Watch</h4>
+            <h2 class="font-bold text-7xl">
+              $ <span id="productPrice">55</span>
+            </h2>
+            <div class="">
+              <input
+                class="mr-3"
+                id="buyInput"
+                type="text"
+                placeholder="Apply coupon code"
+              />
+              <button id="couponBtn">Apply</button>
+            </div>
+
+            <small id="warning" class="p-3 text-red-600"></small>
+          </div>
+          <div class="w-full cart-item flex flex-col items-end justify-between">
+            <h2 class="text-3xl">Pay</h2>
+            <h4 class="text-xl font-light">
+              Fitbit Versa Smart Watch $<span id="payProductPrice">00</span>
+            </h4>
+            <h4 class="text-xl font-light">
+              Shipping Charges $<span id="shippingCharges">15</span>
+            </h4>
+            <h4 class="text-xl font-light">
+              Discount $<span id="discount">00</span>
+            </h4>
+            <hr
+              class="w-1/2 h-px bg-gray-100 border-0 rounded dark:bg-gray-700"
+            />
+
+            <h4 class="text-5xl font-semibold">
+              Total $<span id="totalPay">00</span>
+            </h4>
+          </div>
+        </div>
+        <button>buy now</button>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
