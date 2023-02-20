@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry</title>
+    <script src="../style/tailwind.css" ></script>
+</head>
+<body>
+    <header class="bg-blue-100 rounded-md p-3 m-3 mt-3">
+        <nav class="flex justify-between items-center">
+            <div> 
+                <a href="../Blog.html">
+                    <button class="px-7 py-2 text-xl text-white font-bold bg-blue-500 rounded-md">Back</button>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main class="container mx-auto mt-7">
+        <section>
+            <h1 class="text-5xl mt-17xl bg-yellow-100 p-7 rounded-xl">What is event Event Bubbling?</h1>
+            <p class="text-md mt-7">
+                <h1 class="text-2xl">Event Bubbling</h1>
+                Event Bubbling is a DOM concept (Document Object Model). It occurs when an element receives an event, and that event is transmitted or propagated to its parent and ancestor elements in the DOM tree until it reaches the root element.
+
+                <code>
+                    <br>
+                    <br>
+                    <br>
+                    const a = document.getElementById('parent'); <br>
+                    const b = document.getElementById('child');<br>
+                    
+                    a.addEventListener('click', (event) => {<br>
+                        ___console.log('Clicked on a element');<br>
+                    });<br>
+                    
+                    b.addEventListener('click', (event) => {<br>
+                    ___console.log('Clicked on b element');<br>
+                    ___event.stopPropagation(); <br>
+                    });<br>
+                </code>
+            </p>
+        </section>
+    </main>
+    
+</body>
+</html>

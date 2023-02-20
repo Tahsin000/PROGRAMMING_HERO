@@ -34,3 +34,18 @@ document.getElementById('calculator').addEventListener('click', (event)=>{
        display.value += num;
     }
 });
+document.getElementById('pin-submit').addEventListener('click', ()=>{
+    const pinGenerate =  document.getElementById('display-pin').value;
+    const pinDisplay =  document.getElementById('display-type').value;
+        const success =  document.getElementById('pin-success');
+        const error =  document.getElementById('pin-error');
+    if (pinGenerate === pinDisplay) {
+        error.style.display = 'none'
+        success.style.display = 'block'
+    }
+    else{
+        success.style.display = 'none';
+        error.style.display = 'block'
+    }
+        
+});

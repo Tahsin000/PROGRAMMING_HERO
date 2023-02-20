@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry</title>
+    <script src="style/tailwind.css" ></script>
+</head>
+<body>
+    <header class="bg-blue-100 rounded-md p-3 m-5 mt-3">
+        <nav class="flex justify-between items-center">
+            <div> 
+                <h1 class="text-3xl font-bold ">Interactive</h1>
+                <h5 class="text-lg text-gray-600 font-semibold">Geometry Genius</h5>
+            </div>
+           <div>
+            <a href="Blog.html"> 
+                <button class="bg-blue-500 text-white px-7 py-2 rounded-md font-semibold">
+                    Blog
+                </button>
+            </a>
+           </div>
+        </nav>
+    </header>
+    <main class="m-5 mt-7">
+        <section>
+            <div id="RandomColorArea" class="grid md:grid-cols-4  grid-cols-1 gap-3">
+                <!-- triangle -->
+                <div class="cal-card order-1 p-12 border card flex flex-col items-center rounded-md">
+                    <img src="images/triangle.png" alt="">
+                    <h1 class="text-3xl mt-5 font-bold">Triangle</h1>
+                    <small class="mt-2">Area (A) = 0.5 X b X h</small>
+                    <div class="flex mt-3 items-center">
+                        <input min="0" id="TriangleInput1" class="border w-1/2 p-1 rounded-md" type="number">
+                        <label for="" class="mx-2 ">cm</label>
+                        <input min="0" id="TriangleInput2" class="border w-1/2 p-1 rounded-md " type="number">
+                        <label for="" class="ml-2">cm</label>
+                    </div>
+                    <button id="TriangleCalculate" class="mt-6 py-2 font-semibold text-white w-full bg-blue-500 rounded-md">Calculate</button>
+                    <small style="display: none;" id="warningTriangle" class="mt-3 text-red-800">empty input error!!!</small>
+                </div>
+                <!-- Rectangle -->
+                <div class="cal-card order-2 p-12 border card flex flex-col items-center rounded-md">
+                    <img src="images/rectangle.png" alt="">
+                    <h1 class="text-3xl mt-5 font-bold">Rectangle</h1>
+                    <small class="mt-2">Area (A) = w X l</small>
+                    <div class="flex mt-3 items-center">
+                        <input id="RectangleInput1" min="0" class="border w-1/2 p-1 rounded-md" type="number">
+                        <label for="" class="mx-2 ">cm</label>
+                        <input id="RectangleInput2" min="0" class="border w-1/2 p-1 rounded-md " type="number">
+                        <label for="" class="ml-2">cm</label>
+                    </div>
+                    <button id="rectangleCalculate" class="mt-6 py-2 font-semibold text-white w-full bg-blue-500 rounded-md">Calculate</button>
+                    <small style="display: none;" id="warningRectangle" class="mt-3 text-red-800">empty input error!!!</small>
+                </div>
+                <!-- Parallelogram -->
+                <div class="order-3 p-12 border card flex flex-col items-center rounded-md">
+                    <img src="images/parallelogram.png" alt="">
+                    <h1 class="text-3xl mt-5 font-bold">Parallelogram</h1>
+                    <small class="mt-2">Area (A) = b X h</small>
+                    <div class="flex mt-3 items-center">
+                        <input id="ParallelogramInput1" min="0" class="border w-1/2 p-1 rounded-md" type="number">
+                        <label for="" class="mx-2 ">cm</label>
+                        <input id="ParallelogramInput2" min="0" class="border w-1/2 p-1 rounded-md " type="number">
+                        <label for="" class="ml-2">cm</label>
+                    </div>
+                    <button id="parallelogramCalculate" class="mt-6 py-2 font-semibold text-white w-full bg-blue-500 rounded-md">Calculate</button>
+                    <small id="warningParallelogram" style="display: none;" class="mt-3 text-red-800">empty input error!!!</small>
+                </div>
+                <!-- Area Calculation -->
+                <div class="order-7 md:order-4 row-span-2 p-12 border border-sky-500 card flex flex-col items-center rounded-md">
+                    <h1 class="text-xl font-bold">Area Calculation</h1>
+                    <div id="AreaCalculation" class="mt-3">
+                    </div>
+                </div>
+                <!-- Rhombus -->
+                <div class="order-4 p-12 border card flex flex-col items-center rounded-md">
+                    <img src="images/rhombus.png" alt="">
+                    <h1 class="text-3xl mt-5 font-bold">Rhombus</h1>
+                    <small class="mt-2">Area (A) = 0.5 X d1 X d2</small>
+                    <div class="flex mt-3 items-center">
+                        <input id="RhombusInput1" min="0" class="border w-1/2 p-1 rounded-md" type="number">
+                        <label for="" class="mx-2 ">cm</label>
+                        <input id="RhombusInput2" min="0" class="border w-1/2 p-1 rounded-md " type="number">
+                        <label for="" class="ml-2">cm</label>
+                    </div>
+                    <button id="rhombusCalculate" class="mt-6 py-2 font-semibold text-white w-full bg-blue-500 rounded-md">Calculate</button>
+                    <small id="warningRhombus" style="display: none;" class="mt-3 text-red-800">empty input error!!!</small>
+                </div>
+                <!-- Pentagon -->
+                <div class="order-5 p-12 border card flex flex-col items-center rounded-md">
+                    <img src="images/pentagon.png" alt="">
+                    <h1 class="text-3xl mt-5 font-bold">Pentagon</h1>
+                    <small class="mt-2">Area (A) = 0.5 X p X b</small>
+                    <div class="flex mt-3 items-center">
+                        <input  id="PentagonInput1" min="0" class="border w-1/2 p-1 rounded-md" type="number">
+                        <label for="" class="mx-2 ">cm</label>
+                        <input id="PentagonInput2" min="0"  class="border w-1/2 p-1 rounded-md " type="number">
+                        <label for="" class="ml-2">cm</label>
+                    </div>
+                    <button id="pentagonCalculate" class="mt-6 py-2 font-semibold text-white w-full bg-blue-500 rounded-md">Calculate</button>
+                    <small id="warningPentagon" style="display: none;" class="mt-3 text-red-800">empty input error!!!</small>
+                </div>
+                <!-- Ellipse -->
+                <div class="order-6 p-12 border card flex flex-col items-center rounded-md">
+                    <img src="images/ellipse.png" alt="">
+                    <h1 class="text-3xl mt-5 font-bold">Ellipse</h1>
+                    <small class="mt-2">Area (A) = pi X a X b</small>
+                    <div class="flex mt-3 items-center">
+                        <input id="EllipseInput1" min="0" class="border w-1/2 p-1 rounded-md" type="number">
+                        <label for="" class="mx-2 ">cm</label>
+                        <input id="EllipseInput2" min="0"  class="border w-1/2 p-1 rounded-md " type="number">
+                        <label for="" class="ml-2">cm</label>
+                    </div>
+                    <button id="ellipseCalculate" class="mt-6 py-2 font-semibold text-white w-full bg-blue-500 rounded-md">Calculate</button>
+                    <small id="warningEllipse" style="display: none;" class="mt-3 text-red-800">empty input error!!!</small>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    <script src="js/function.js" ></script>
+    <script src="js/script.js" ></script>
+</body>
+</html>
