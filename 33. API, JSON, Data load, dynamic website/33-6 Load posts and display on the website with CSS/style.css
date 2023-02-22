@@ -1,0 +1,16 @@
+.btn {
+  padding: 1.5rem;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  background-color: tomato;
+  font-size: large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+.btn:hover {
+  background-color: rgb(208, 80, 57);
+  transition: 0.15s;
+}
