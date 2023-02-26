@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty HUT</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+     <!--fontawesome -->
+     <script
+     src="https://kit.fontawesome.com/d7b7563d24.js"
+     crossorigin="anonymous"
+   ></script>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <nav class="navbar p-3 bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand">
+                    <img src="images/Tasty_HUT.png" height="25" alt="">
+                  </a>
+                  <form class="d-flex" role="search">
+                    <button class="btn btn-warning fw-bold px-4 p-2" type="submit">Sign Up</button>
+                  </form>
+                </div>
+              </nav>
+        </nav>
+        <section class="bgImg hero">
+            <div class=" h-100 d-flex flex-column justify-content-center align-items-center">
+                <h1 class="navTitle">Taste Our Delicious<br>Best Foods</h1>
+                <p class="py-4">There are many variations of passages ofLorem Ipsum available,<br>but the majority have suffered alteration in some form, by injected humou.</p>
+                <div class="button">
+                    <div class="input-group w-100">
+                        <input id="inputFood" type="text" class="form-control p-3" id="autoSizingInputGroup" placeholder="Search any food">
+                        <button class="btn btn-warning fw-bold px-4" type="button" id="button-addon1" onclick="inputFood()">Button</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="container">
+            <h1 class="text-center my-5">Your Favourite Food</h1>
+            <div id="cardGrid" class="row row-cols-1 row-cols-md-2 g-4">
+                
+            </div>
+<!-- 
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-1">
+                  <div class="col-md-4">
+                    <img src="" class="img-fluid rounded-start" alt="">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Chicken Handi</h5>
+                      <p class="card-text">There are many variations of passages of available, but the majority have suffered</p>
+                      <a href="" class="text-warning">
+                        <h6 class="card-text fw-semibold ">View Details</h6>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+
+        </section>
+        
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="mealDetails" tabindex="-1" aria-labelledby="mealDetailsLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 id="FoodTitle" class="modal-title fs-5" id="mealDetailsLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="mealFoodBody">
+                    
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/popper.min.js"></script>
+</body>
+</html>
