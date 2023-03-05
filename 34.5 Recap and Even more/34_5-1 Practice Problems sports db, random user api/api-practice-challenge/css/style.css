@@ -1,0 +1,15 @@
+.bgImg{
+    background-image: url('../images/banner_1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    text-align: center;
+}
+.navTitle{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.hero{
+    height: 520px;
+}

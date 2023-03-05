@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-universe-hub</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+
+    <!-- bootstrap-icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+</head>
+<body>
+    <header>
+       <div class="d-flex flex-column justefy-content-center align-items-center">
+            <h2 class="text-center mt-3">AI Universe Hub</h2>
+            <button class="btn btn-primary mt-3">Sort By Date</button>
+          </div>
+        </header>
+    <main>
+      <!--  -->
+      <section class="container my-4">
+            <div id="cardContainer" class="row row-cols-1 row-cols-md-3 g-4">
+                <!-- <div class="col">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold">Features</h5>
+                      <ol class="text-muted">
+                        <li>Natural language processing
+                        <li>Contextual understanding</li>    
+                        <li>Text generation</li>
+                      </ol>
+                      <hr>
+                      <h5 class="card-title fw-bold">ChatGPT</h5>
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <i class="text-muted bi bi-calendar-week-fill"></i>
+                            <small class="ms-3 text-muted"></small>
+                        </div>
+                        <button class="btn border rounded-full rounded-pill"><i class="text-muted bi bi-arrow-right"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+        </section>
+        
+        <!-- loader -->
+        <section id="loader" class="d-none">
+          <div style="height: 50vh;" class="d-flex justify-content-center align-items-center flex-column">
+              <div class="spinner-border text-success" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+          </div>
+        </section>
+
+        <section class="d-flexflex-column justefy-content-center align-items-center py-3">
+          <div id="show-all" class="text-center d-none">
+            <div id="show-all-btn" class="btn btn-primary">Show all</div>
+          </div>
+        </section>
+        <section>
+                    <!-- Button trigger modal -->
+                    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Launch demo modal
+          </button> -->
+
+          <!-- Modal -->
+          <div class="modal fade" id="aiModel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-5">
+                  <div class="container">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                      <div class="col-md-6 align-items-center">
+                        <div class="card card-danger border-danger p-3 h-100 ">
+                          <h3 id="modalTitle" class="fw-blod"></h3>
+                          <div class="my-2 row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col text-center">
+                              <div class="card card-danger px-2 py-5">
+                                <h5 class="card-title text-success"><span id="pricingBasicPrice" class="fw-bold"></span><br><span id="pricingBasicPlan"></span></h5>
+                              </div>
+                            </div>
+                            <div class="col  text-center">
+                              <div class="card card-danger px-2 py-5">
+                                <h5 class="card-title text-warning"><span id="pricingProPrice" class="fw-bold"></span><br><span id="pricingProPlan"></span></h5>
+                              </div>
+                            </div>
+                            <div class="col text-center">
+                              <div class="card card-danger px-2 py-5">
+                                <h5 class="card-title text-danger"><span id="pricingEnterprisePrice" class="fw-bold"></span><br><span id="pricingEnterprisePlan"></span></h5>
+                              </div>
+                            </div>
+                          </div>
+            
+                          <div class="py-2 row row-cols-1 row-cols-md-2 ">
+                            <div class="col">
+                              <h3 class="fw-blod">Features</h3>
+                              <ul class="text-muted">
+                                <li id="Features1">Customizable responses</li>
+                                <li id="Features2">Multilingual support</li>
+                                <li id="Features3">Customizable responses</li>
+                              </ul>
+                            </div>
+                            <div class="col">
+                              <h3 class="fw-blod">Integrations</h3>
+                              <ul class="text-muted">
+                                <li id="Integrations1">FB Messenger</li>
+                                <li id="Integrations2">FB Messenger</li>
+                                <li id="Integrations3">FB Messenger</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="card border-1 h-100">
+                          
+                          
+                          <div class="position-relative bg-primary">
+                            <span id="accuracy" type="button" class="btn btn-primary position-absolute top-0 end-0">
+                              94% accuracy
+                            </span>
+                            <img id="modalImg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhPBjp_4ATY7ds93_IGG6gp8cyOZqV3oR4Ov79MkDUZajhwYHNx6eTvDt4CkDzOgtIK5w&usqp=CAU" class="img-fluid rounded w-100" alt="...">
+                          </div>
+                          
+                          <div class="card-body my-5">
+                            <h4 class="card-title text-center" id="exampleTitle">Hi, how are you doing today?</h4>
+                            <p class="card-text text-center" id="exampleSubtitle">I'm doing well, thank you for asking. How can I assist you today?</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script defer src="js/app.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
