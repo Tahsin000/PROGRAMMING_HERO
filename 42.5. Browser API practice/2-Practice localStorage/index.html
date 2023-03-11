@@ -5,58 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <title>Level - 1</title>
+    <title>Level - 2</title>
 </head>
 <body>
-
-    <div class="container-fluid mt-5">
-        <h1 class="display-1 my-3 text-center">Level-1</h1>
-        <br>
-        <hr>
-        <div class="row row-cols-1 row-cols-md-2 g-5">
-            <div class="col">
-                <h2 class="text-center">Clear All Data In Local Storage</h2>
-                <div class="d-flex justify-content-center">
-                    <button class="btn btn-danger"onclick="clearAll()">Clear Local Storage</button>
-                </div>
-            </div>
-            <div class="col">
-                <h2 class="text-center">Set Local Storage</h2>
-                <div class="input-group">
-                    <input class="form-control" type="text" placeholder="Enter Your Key" id="userInputKay">
-                    <input class="form-control" type="text" placeholder="Enter Your Value" id="userInputValue">
-                    <button class="btn btn-primary" onclick="singleLocalStorageSave()">Save</button>
-                </div>
-            </div>
-            <div class="col">
-                <h2 class="text-center">Get the local storage item you have set</h2>
-                <div class="d-flex justify-content-center input-group">
-                    <input class="form-control align-items-center" type="text" placeholder="Enter item you have to get " id="userInputSearch">
-                    <button class="btn btn-primary" onclick="singleLocalStorageGet()">Get info</button>
-                </div>
-                <h4 class="text-center" id="ShowItems"></h4>
-            </div>
-        </div> 
-        <br>
-        <hr>
-        <h1 class="text-center mt-4">Remove the local storage</h1>
-        <div class="row row-cols-1 row-cols-md-2 g-5">
-            <div class="col">
-               <div class=" d-flex justify-content-center">
-                <div class="w-50 input-group">
-                    <input class="form-control" type="text" placeholder="Enter Your Key" id="removeSearchItem">
-                    <button class="btn btn-danger"onclick="RemoveItemsWithKey()">Remove</button>
-                </div>
-            </div>
-            <div class="text-center mt-4"><small class="text-center" id="warningText"></small></div>
-            </div>
+    <div class=" d-flex justify-content-center align-items-center" style="height: 100vh;">
+      <div>
+        <div class="display-2 text-center" id="clickCounter">0</div>
+        <div class="">
+            <button class="btn btn-primary " onclick="clickME()">Click ME</button>
+            <button class="btn btn-danger " onclick="ClearAll()">Clear All</button>
         </div>
-        <br>
-        <hr>
-    </div>  
-
-
-  
+      </div>  
+    </div>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>
