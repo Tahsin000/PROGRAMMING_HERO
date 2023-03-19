@@ -1,0 +1,26 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#section{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 10px;
+}
+.country{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color:bisque;
+    text-align: center;
+    border-radius: 20px;
+}
+.country img{
+    border-radius: 1rem;
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 2rem;
+}
