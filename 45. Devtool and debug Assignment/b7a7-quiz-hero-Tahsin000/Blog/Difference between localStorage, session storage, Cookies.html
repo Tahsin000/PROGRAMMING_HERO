@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        
+        <link rel="stylesheet" href="../css/default.min.css">
+	<script src="../highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"
+        />
+        <title>Quiz Hero</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="./index.js" defer></script>
+    
+        <!-- You don't need to change noChange.js file. It's fine -->
+        <script src="./noChange.js" defer></script>
+        <!-- You don't need to change noChange.js file. It's fine -->
+    <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+          tailwind.config = {
+            theme: {
+              extend: {
+                fontFamily: {
+                  common: ["Rubik", "sans-serif"],
+                },
+              },
+            },
+          };
+        </script>
+      </head>
+<body>
+    <header class="h-16 flex items-center shadow-sm">
+        <nav class="flex justify-between items-center w-9/12 mx-auto">
+          <div class="text-zinc-800 font-bold uppercase">
+            <h1 class="text-lg">Quiz <span class="text-green-700">HERO</span></h1>
+            <p class="text-[10px] font-normal capitalize -mt-1">
+              Get ready to Quiz and be amazed!
+            </p>
+          </div>
+          <a class="bg-green-600 font-light text-sm px-5 py-1 rounded text-white" href="../Blog/Blog.html">Back</a>
+        </nav>
+    </header>
+    <section
+      class=" my-7 lg:w-9/12 md:w-[90%] w-[95%] mx-auto text-cente grid grid-cols-1 gap-4 p-4"
+    >
+    <div class="bg-green-100 p-5 rounded-lg ">
+        <p class="font-semibold text-3xl text-center" >Difference between localStorage, session storage, Cookies?</p>
+        <p class="mt-3 text-base text-justify text-green-900 text-center" >localStorage, sessionStorage, and cookies are all ways to store data in a user's web browser, but they have some differences in terms of their capabilities and use cases.localStorage and sessionStorage are storage mechanisms that allow you to store key/value pairs in the browser.</p>
+       
+        <h2 class="font-semibold text-2xl mt-7">localStorage</h2>
+        <p class="mt-3 text-base text-justify text-green-900" >Data stored in localStorage has no expiration date and will persist even after the browser is closed or the user logs out. The data can be accessed by any page within the same domain. Data stored in localStorage can be cleared manually by the user or by the browser settings.</p>
+<!-- <pre class="mt-5"><code class="javascript">const numbers = [1, 2, 3];
+numbers.forEach(number => console.log(number));
+// Output: 1 2 3</code>
+</pre> -->
+
+        <h2 class="font-semibold text-2xl mt-7">sessionStorage</h2>
+        <p class="mt-3 text-base text-justify text-green-900" >Data stored in sessionStorage is tied to a specific browser tab and is cleared when the tab is closed. The data can be accessed by any page within the same domain and the same browser tab.</p>
+<!-- <pre class="mt-5"><code class="javascript">const numbers = [1, 2, 3];
+const squares = numbers.map(number => number * number);
+console.log(squares);
+// Output: [1, 4, 9]
+</code>
+</pre> -->
+
+        <h2 class="font-semibold text-2xl mt-7">Cookies</h2>
+        <p class="mt-3 text-base text-justify text-green-900" >Cookies are small text files that are stored on the user's computer by the web server. They are typically used to store information about the user's preferences, login information, or other data that can be used to personalize the user's experience on a website.</p>
+<!-- <pre class="mt-5"><code class="javascript">const numbers = [1, 2, 3, 4, 5];
+const evenNumbers = numbers.filter(number => number % 2 === 0);
+console.log(evenNumbers);
+// Output: [2, 4]
+</code>
+</pre> -->
+
+        <!-- <h2 class="font-semibold text-2xl mt-7">find()</h2>
+        <p class="mt-3 text-base text-justify text-green-900" >find() is used to loop through an array and return the first element that meets a certain condition. It returns the first matching element or undefined if no matching element is found.</p>
+<pre class="mt-5"><code class="javascript">const numbers = [1, 2, 3, 4, 5];
+const firstEvenNumber = numbers.find(number => number % 2 === 0);
+console.log(firstEvenNumber);
+// Output: 2
+</code>
+</pre> -->
+
+
+
+
+
+
+
+    </div>
+    </section>
+</body>
+</html>

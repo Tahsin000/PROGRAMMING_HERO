@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        
+        <link rel="stylesheet" href="../css/default.min.css">
+	<script src="../highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"
+        />
+        <title>Quiz Hero</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="./index.js" defer></script>
+    
+        <!-- You don't need to change noChange.js file. It's fine -->
+        <script src="./noChange.js" defer></script>
+        <!-- You don't need to change noChange.js file. It's fine -->
+    <script>hljs.initHighlightingOnLoad();</script>
+        <script>
+          tailwind.config = {
+            theme: {
+              extend: {
+                fontFamily: {
+                  common: ["Rubik", "sans-serif"],
+                },
+              },
+            },
+          };
+        </script>
+      </head>
+<body>
+    <header class="h-16 flex items-center shadow-sm">
+        <nav class="flex justify-between items-center w-9/12 mx-auto">
+          <div class="text-zinc-800 font-bold uppercase">
+            <h1 class="text-lg">Quiz <span class="text-green-700">HERO</span></h1>
+            <p class="text-[10px] font-normal capitalize -mt-1">
+              Get ready to Quiz and be amazed!
+            </p>
+          </div>
+          <a class="bg-green-600 font-light text-sm px-5 py-1 rounded text-white" href="../Blog/Blog.html">Back</a>
+        </nav>
+    </header>
+    <section
+      class=" my-7 lg:w-9/12 md:w-[90%] w-[95%] mx-auto text-cente grid grid-cols-1 gap-4 p-4"
+    >
+    <div class="bg-green-100 p-5 rounded-lg ">
+        <p class="font-semibold text-3xl text-center" >What does the quizTimer(), chooseQuiz() function do?</p>
+       
+        <h2 class="font-semibold text-2xl mt-7">quizTimer()</h2>
+        <p class="mt-3 text-base text-justify text-green-900" >The quizTimer function sets up a timer that increments every second and displays the elapsed time on the webpage.</p>
+        <p class="mt-3 text-base text-justify text-green-900" >If the dismiss argument is true, the function clears the interval that is set by the timer and stops the timer.</p>
+        <p class="mt-3 text-base text-justify text-green-900" >Otherwise, the function sets up an interval of one second using the setInterval function. Inside the interval, the function calculates the elapsed time by dividing the count by 60 to get the number of minutes and using the remainder operator to get the number of seconds. It then formats the minutes and seconds values to ensure that they are always two digits long.</p>
+        
+        
+        <h2 class="font-semibold text-2xl mt-7">chooseQuiz()</h2>
+        <p class="mt-3 text-base text-justify text-green-900" >The function takes two arguments: index and givenAns. The index argument represents the index of the quiz question in the quizData array, while givenAns represents the answer given by the user for that question.</p>
+        <p class="mt-3 text-base text-justify text-green-900" >The function first checks if an answer for the given question already exists in the answers array by calling the find method on the answers array and searching for an answer with an id property that matches the id property of the quiz question at the specified index in the quizData array.</p>
+
+
+
+    </div>
+    </section>
+</body>
+</html>
