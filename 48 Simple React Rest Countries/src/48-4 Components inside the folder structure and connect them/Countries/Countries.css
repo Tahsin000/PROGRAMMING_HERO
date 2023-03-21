@@ -1,0 +1,12 @@
+.BgColor {
+    background-color: gray;
+    color:white;
+    border-radius:10px;
+    padding:20px;
+    margin:2x;
+}
+.style {
+    display:grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap:20px;
+}
