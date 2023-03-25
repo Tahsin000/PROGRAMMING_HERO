@@ -5,6 +5,7 @@ import Cosmetics1 from './Components/49_5-3 Create and Load Fake data, json gene
 import Cosmetics2 from './Components/49_5-4 How to Create Event handler with parameters/Cosmetics/Cosmetics';
 import Cosmetics3 from './Components/49_5-5 Intro to Local storage to store data just one item/Cosmetics/Cosmetics';
 import Cosmetics4 from './Components/49_5-7 Remove data to the local storage and delete shopping cart/Cosmetics/Cosmetics';
+import Cosmetics5 from './Components/49_5-8 Module Summary and simple intro to array reduce/Cosmetics/Cosmetics';
 import Shoes from './Components/49_5-2 ES6 Modules, import default, relative path/Shoes/Shoes';
 
 function App() {
@@ -42,7 +43,14 @@ function App() {
 
 
       {/* 49_5-7 Remove data to the local storage and delete shopping cart */}
-      <Cosmetics4></Cosmetics4>
+      {/* <Cosmetics4></Cosmetics4> */}
+
+
+
+
+      {/* 49_5-8 Module Summary and simple intro to array reduce */}
+      <Cosmetics5></Cosmetics5>
+
 
 
 
