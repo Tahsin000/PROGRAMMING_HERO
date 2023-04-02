@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "AuthorName": "Md. Iftikhar Mahmud",
+    "BlogTitle": "What is Responsive Web Design (RWD) in HTML and CSS?",
+    "Images": "./img/blog/blog-1.png",
+    "BlogCoverImage": "img/blog/blog-1.png",
+    "AuthorImage": "./img/author/auth-1.png",
+    "ReadTime": 15,
+    "PublishDate": "Mar 14 (4 Days ago)"
+  },
+  {
+    "id": 2,
+    "AuthorName": "Mohammad Sakib Chowdhury",
+    "BlogTitle": "Can you give an example of using an ID selector in CSS?",
+    "Images": "./img/blog/blog-2.png",
+    "BlogCoverImage": "./img/blog/blog-2.png",
+    "AuthorImage": "./img/author/auth-2.png",
+    "ReadTime": 12,
+    "PublishDate": "Mar 14 (4 Days ago)"
+  },
+  {
+    "id": 3,
+    "AuthorName": "Montasir Tasnim Al Rafi",
+    "BlogTitle": "What is the difference between cookies and local storage?",
+    "Images": "./img/blog/blog-3.png",
+    "BlogCoverImage": "./img/blog/blog-3.png",
+    "AuthorImage": "./img/author/auth-3.png",
+    "ReadTime": 5,
+    "PublishDate": "Mar 14 (4 Days ago)"
+  },
+  {
+    "id": 4,
+    "AuthorName": "Mohammad Rahatul Islam",
+    "BlogTitle": "What are the various data types present in JavaScript?",
+    "Images": "./img/blog/blog-4.png",
+    "BlogCoverImage": "./img/blog/blog-4.png",
+    "AuthorImage": "./img/author/auth-4.png",
+    "ReadTime": 20,
+    "PublishDate": "Mar 14 (4 Days ago)"
+  },
+  {
+    "id": 5,
+    "AuthorName": "Yousuf Jamshed",
+    "BlogTitle": "What is the meaning of the scope of a variable in JavaScript?",
+    "Images": "./img/blog/blog-5.png",
+    "BlogCoverImage": "./img/blog/blog-5.png",
+    "AuthorImage": "./img/author/auth-5.png",
+    "ReadTime": 10,
+    "PublishDate": "Mar 14 (4 Days ago)"
+  }
+]

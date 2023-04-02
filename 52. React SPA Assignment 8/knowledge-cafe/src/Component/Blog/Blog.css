@@ -1,0 +1,31 @@
+.BookMarkStyle, .MarkAsRead{
+    cursor: pointer;
+}
+.MarkAsRead{
+    color: #6047EC;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration:underline;
+}
+.BlogImg{
+    border-radius: 1rem;
+}
+.AuthorName{
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: none;
+    color: #111111;
+}
+.PublishDate{
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: none;
+    /* identical to box height, or 26px */
+
+
+    color: rgba(17, 17, 17, 0.6);
+}

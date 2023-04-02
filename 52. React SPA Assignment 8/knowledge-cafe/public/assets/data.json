@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "AuthorName": "Iftikhar Mahmud",
+    "BlogTitle": "What is Responsive Web Design (RWD) in HTML and CSS?",
+    "Images": "https://i.ibb.co/SsZmZxq/blog-1.png",
+    "BlogCoverImage": "https://i.ibb.co/SsZmZxq/blog-1.png",
+    "AuthorImage": "https://i.ibb.co/b1fZCC6/auth-1.png",
+    "ReadTime": 15,
+    "PublishDate": "Mar 14 (4 Days ago)",
+    "Tag":["#advance", "#html_and_css"]
+  },
+  {
+    "id": 2,
+    "AuthorName": "Sakib Chowdhury",
+    "BlogTitle": "Can you give an example of using an ID selector in CSS?",
+    "Images": "https://i.ibb.co/DWVmfx3/blog-2.png",
+    "BlogCoverImage": "https://i.ibb.co/DWVmfx3/blog-2.png",
+    "AuthorImage": "https://i.ibb.co/NV8STkP/auth-2.png",
+    "ReadTime": 12,
+    "PublishDate": "Mar 10 (8 Days ago)",
+    "Tag":["#beginners", "#programming"]
+  },
+  {
+    "id": 3,
+    "AuthorName": "Al Rafi",
+    "BlogTitle": "What is the difference between cookies and local storage?",
+    "Images": "https://i.ibb.co/r7fgsqS/blog-3.png",
+    "BlogCoverImage": "https://i.ibb.co/r7fgsqS/blog-3.png",
+    "AuthorImage": "https://i.ibb.co/qJQKwNr/auth-3.png",
+    "ReadTime": 5,
+    "PublishDate": "Mar 8 (10 Days ago)",
+    "Tag":["#localStorage", "#intermediate"]
+  },
+  {
+    "id": 4,
+    "AuthorName": "Rahatul Islam",
+    "BlogTitle": "What are the various data types present in JavaScript?",
+    "Images": "https://i.ibb.co/WDmHLb0/blog-4.png",
+    "BlogCoverImage": "https://i.ibb.co/WDmHLb0/blog-4.png",
+    "AuthorImage": "https://i.ibb.co/J3th2Dx/auth-4.png",
+    "ReadTime": 20,
+    "PublishDate": "Mar 6 (12 Days ago)",
+    "Tag":["#beginners", "#JavaScript"]
+  },
+  {
+    "id": 5,
+    "AuthorName": "Yousuf Jamshed",
+    "BlogTitle": "What is the meaning of the scope of a variable in JavaScript?",
+    "Images": "https://i.ibb.co/FbczGSV/blog-5.png",
+    "BlogCoverImage": "https://i.ibb.co/FbczGSV/blog-5.png",
+    "AuthorImage": "https://i.ibb.co/kBmPdc8/auth-5.png",
+    "ReadTime": 10,
+    "PublishDate": "Mar 4 (14 Days ago)",
+    "Tag":["#programming", "#JavaScript"]
+  }
+]

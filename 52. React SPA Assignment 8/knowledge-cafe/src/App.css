@@ -1,0 +1,6 @@
+
+      @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+      @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700;800&family=Work+Sans:ital,wght@0,500;1,400&display=swap');
+      *{
+        font-family: 'Exo 2', sans-serif;
+      }

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 253.2 253.2" style="enable-background:new 0 0 253.2 253.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFF01;}
+	.st1{font-family:'Impact';}
+	.st2{font-size:39.2056px;}
+</style>
+<g>
+	<rect class="st0" width="253.2" height="253.2"/>
+	<g>
+		<g>
+			<g>
+				<polygon points="103.4,94.3 103.4,115.5 82.3,115.5 82.3,143.3 52.3,143.3 52.3,60.6 82.3,60.6 82.3,94.3 				"/>
+				<polygon points="167.2,94.3 167.2,115.5 139.6,115.5 139.6,143.3 109.6,143.3 109.6,60.6 139.6,60.6 139.6,94.3 				"/>
+				<path d="M200.9,60.6v56.6c0,14.4-11.7,26.1-26.1,26.1h-23.4v-20.7h9c7.1,0,12.8-5.7,12.8-12.8V60.6H200.9z"/>
+				<polygon points="167.2,60.6 167.2,92.1 162.2,92.1 157.5,87.4 145.6,75.6 145.6,61.8 157.5,73.7 157.5,60.6 				"/>
+			</g>
+		</g>
+		<text transform="matrix(1 0 0 1 52.2707 180.5969)" class="st1 st2">CHAT BOX</text>
+	</g>
+</g>
+</svg>

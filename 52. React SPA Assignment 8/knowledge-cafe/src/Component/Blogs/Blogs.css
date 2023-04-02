@@ -1,0 +1,8 @@
+.BookMarkStyle{
+    cursor: pointer;
+}
+.MarkAsRead{
+    color: #6047EC;
+    font-weight: 600;
+    line-height: 24px;
+}

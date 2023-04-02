@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "Question":"What is the difference between Props and State? [Props এবং State মধ্যে পার্থক্য কি?]",
+    "Answer": "Props are passed to a component by its parent, while state is managed within the component itself. Props are read-only and cannot be modified by the component that receives them, while state can be modified using the setState() method. Props are used to pass data from a parent component to a child component, while state is used to manage data within a component and trigger re-rendering when the state changes."
+  },
+  {
+    "id": 2,
+    "Question":"How does useState work? [useState কিভাবে কাজ করে?]",
+    "Answer": "useState takes an initial value as an argument, and returns an array with two values: the current state value, and a function to update the state.When the component is first rendered, the initial value is used as the initial state."
+  },
+  {
+    "id": 3,
+    "Question":"What else can useEffect do other than load data? [useEffect ডাটা লোড করা ছাড়া আর কি কি জিনিস করতে পারে?]",
+    "Answer": "Updating the title of the document or the page based on the state of the component.Setting up event listeners or subscriptions to external data sources.Clearing intervals or timeouts set by the component."
+  },
+  {
+    "id": 4,
+    "Question":"How does react work? [react কিভাবে কাজ করে?]",
+    "Answer": "The front-end JavaScript library React is used to create user interfaces. It functions by enabling programmers to design reusable parts that may be used to create intricate user interfaces.When the state of the application changes, React quickly updates the user interface (UI). React modifies the virtual DOM and re-renders the component and its children whenever a component's state changes."
+  }
+]
