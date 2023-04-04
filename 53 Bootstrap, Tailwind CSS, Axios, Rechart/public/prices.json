@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Basic",
+    "price": 2999,
+    "features": ["Gym equipment", "Regular hours"],
+    "picture": "https://www.bodybuilding.com/images/2019/july/best-beginner-weight-training-guide-with-easy-to-follow-workout-header-b-960x540.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Premium",
+    "price": 4999,
+    "features": ["Gym equipment", "Extended hours", "Group fitness classes"],
+    "picture": "https://media.gettyimages.com/id/625739874/photo/heavy-weight-exercise.jpg?s=612x612&w=0&k=20&c=B1uzJW1DBei2Rx5hnt139tt9dt3L7TbKrpgwbMR-LrI="
+  },
+  {
+    "id": 3,
+    "name": "VIP",
+    "price": 9999,
+    "features": ["Gym equipment", "All classes", "Personal training sessions"],
+    "picture": "https://images.unsplash.com/photo-1623874514711-0f321325f318?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+  }
+]
