@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "img": "Icons/accounts 1.svg",
+    "type": "Software Engineer",
+    "Available": 500
+  },
+  {
+    "id": 2,
+    "img": "Icons/business 1.svg",
+    "type": "Marketing Manager",
+    "Available": 300
+  },
+  {
+    "id": 3,
+    "img": "Icons/social-media 1.svg",
+    "type": "Graphic Designer",
+    "Available": 200
+  },
+  {
+    "id": 4,
+    "img": "Icons/chip 1.svg",
+    "type": "Data Analyst",
+    "Available": 40
+  }
+]

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700;800&family=Manrope:wght@300;500;600;700;800&family=Work+Sans:ital,wght@0,500;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: 'Manrope', sans-serif !important;
+  font-family: 'Work Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.active{
+  color:#586eff !important;
+}
+.bg-img{
+  background-image: url("/All Images/image-banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+  height: 15rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .bg-img{
+    background-position: right;
+  }
+}
