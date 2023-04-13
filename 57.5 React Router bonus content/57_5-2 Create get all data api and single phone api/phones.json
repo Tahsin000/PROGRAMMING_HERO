@@ -1,0 +1,110 @@
+[
+  {
+    "_id":1,
+    "brand": "Samsung",
+    "model": "Galaxy S21",
+    "storage": "128GB",
+    "color": "Phantom Gray",
+    "price": "$799",
+    "screenSize": "6.2 inches",
+    "camera": "Triple camera system",
+    "battery": "4000mAh",
+    "ram": "8GB"
+  },
+  {
+    "_id":2,
+    "brand": "Apple",
+    "model": "iPhone 12 Pro",
+    "storage": "256GB",
+    "color": "Pacific Blue",
+    "price": "$999",
+    "screenSize": "6.1 inches",
+    "camera": "Triple-lens system",
+    "battery": "2815mAh",
+    "ram": "6GB"
+  },
+  {
+    "_id":3,
+    "brand": "Google",
+    "model": "Pixel 5",
+    "storage": "128GB",
+    "color": "Just Black",
+    "price": "$699",
+    "screenSize": "6.0 inches",
+    "camera": "Dual-camera system",
+    "battery": "4080mAh",
+    "ram": "8GB"
+  },
+  {
+    "_id":4,
+    "brand": "OnePlus",
+    "model": "9 Pro",
+    "storage": "256GB",
+    "color": "Morning Mist",
+    "price": "$1069",
+    "screenSize": "6.7 inches",
+    "camera": "Quad-camera system",
+    "battery": "4500mAh",
+    "ram": "12GB"
+  },
+  {
+    "_id":5,
+    "brand": "Xiaomi",
+    "model": "Mi 11",
+    "storage": "256GB",
+    "color": "Cosmic Black",
+    "price": "$699",
+    "screenSize": "6.81 inches",
+    "camera": "Triple-lens system",
+    "battery": "4600mAh",
+    "ram": "8GB"
+  },
+  {
+    "_id":6,
+    "brand": "LG",
+    "model": "Velvet",
+    "storage": "128GB",
+    "color": "Aurora Gray",
+    "price": "$599",
+    "screenSize": "6.8 inches",
+    "camera": "Triple-camera system",
+    "battery": "4300mAh",
+    "ram": "6GB"
+  },
+  {
+    "_id":7,
+    "brand": "Motorola",
+    "model": "Moto G Power (2021)",
+    "storage": "64GB",
+    "color": "Flash Gray",
+    "price": "$199",
+    "screenSize": "6.6 inches",
+    "camera": "Triple-camera system",
+    "battery": "5000mAh",
+    "ram": "4GB"
+  },
+  {
+    "_id":8,
+    "brand": "Sony",
+    "model": "Xperia 1 III",
+    "storage": "256GB",
+    "color": "Frosted Black",
+    "price": "$1299",
+    "screenSize": "6.5 inches",
+    "camera": "Quad-camera system",
+    "battery": "4500mAh",
+    "ram": "12GB"
+  },
+  {
+    "_id":9,
+    "brand": "Nokia",
+    "model": "8.3 5G",
+    "storage": "64GB",
+    "color": "Polar Night",
+    "price": "$499",
+    "screenSize": "6.81 inches",
+    "camera": "Quad-camera system",
+    "battery": "4500mAh",
+    "ram": "6GB"
+  }
+]

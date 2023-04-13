@@ -1,0 +1,20 @@
+{
+  "name": "57_5-2-create-get-all-data-api-and-single-phone-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
+    "react-router-dom": "^6.10.0",
+    "sort-by": "^1.2.0",
+    "vite": "^4.2.1"
+  }
+}
