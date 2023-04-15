@@ -1,13 +1,11 @@
-# 58-3 Initialize firebase auth and set Sign in with google
+# 58-8 Module Summary
 
 ## [Firebase](https://console.firebase.google.com/)
 
 ### \_\_Steps.js
-
-**________________________________________**
-<br /> **INITIAL INSTALLATION**
-<br />
-**________________________________________**
+<br /> 
+_________________ INITIAL INSTALLATION _______________________
+<br /> 
 
 1. visit: console.firebase.google.com
 2. create project (skip google analytics)
@@ -15,27 +13,28 @@
 4. install firebase: npm install firebase
 5. add config file to your project
 6. DANGER: Do not publish or make firebase config to public by pushing those to github
-**________________________________________**
-<br /> **INTEGRATION**
-<br />
-**________________________________________**
+
+<br /> 
+_________________ INTEGRATION _______________________
+<br /> 
+
 7. Visit: Go to Docs > Build > Authentication > Web > Get Started
 8. export app from the firebase.config.js file: export default app
 9. Login.jsx: import getAuth from firebase/auth
 10. create const auth = getAuth (app)
-<br />
-**________________________________________**
-<br /> **PROVIDER SETUP**
-<br />
-**________________________________________**
+
+<br /> 
+_________________ PROVIDER SETUP _______________________
+<br /> 
+
 11. import googleAuthProvider and create a new provider
 12. use signInWithPopUp and pass auth and provider
 13. activate sign-in method (google, facebook, github),
 14. [vite]; change 127.0.0.1 to localhost
-<br />
-**________________________________________**
-<br /> **More Auth Provider**
-<br />
-**________________________________________**
+
+<br /> 
+_________________ More Auth Provider _______________________
+<br /> 
+
 15. activate the auth provider (create app, provide redirect url, client id, client
 Secret)
