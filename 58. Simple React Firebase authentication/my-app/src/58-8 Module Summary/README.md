@@ -38,3 +38,9 @@ _________________ More Auth Provider _______________________
 
 15. activate the auth provider (create app, provide redirect url, client id, client
 Secret)
+
+<br /> 
+_________________ Notes _______________________
+<br /> 
+
+[PDF](./58-8%20Module%20Summary.pdf)
