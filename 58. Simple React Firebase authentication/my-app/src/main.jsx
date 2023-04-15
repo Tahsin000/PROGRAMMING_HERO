@@ -10,6 +10,7 @@ import {
 import Main from './layout/Main';
 import Home from './conponent/Home/Home';
 import Login from './conponent/Login/Login';
+import Recap from './conponent/Recap/Recap';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path:"/login",
         element: <Login></Login>
+      },
+      {
+        path:"/recap",
+        element: <Recap></Recap>
       }
     ]
   },
