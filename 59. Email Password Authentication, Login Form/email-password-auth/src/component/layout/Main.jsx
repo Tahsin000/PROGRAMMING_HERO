@@ -1,12 +1,14 @@
 import React from 'react';
 import {Outlet} from 'react-router-dom';
 import Header from '../Header/Header';
+import Container from 'react-bootstrap/Container';
+
 const Hader = () => {
     return (
-        <div>
+        <Container  >
             <Header></Header>
             <Outlet/>
-        </div>
+        </Container >
     );
 };
 

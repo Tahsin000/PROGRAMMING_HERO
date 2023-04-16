@@ -11,6 +11,8 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import RegisterRBS from './component/RegisterRBS/RegisterRBS'
+import RegisterBS from './component/RegisterBS/RegisterBS'
 
 const router = createBrowserRouter([
   {
@@ -29,6 +31,14 @@ const router = createBrowserRouter([
       {
         path:'/register',
         element: <Register> </Register>
+      },
+      {
+        path:'/registerrbs',
+        element: <RegisterRBS> </RegisterRBS>
+      },
+      {
+        path:'/registerbs',
+        element: <RegisterBS> </RegisterBS>
       }
     ]
   },
