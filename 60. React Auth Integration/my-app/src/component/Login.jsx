@@ -1,10 +1,10 @@
 import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Navigate } from 'react-router-dom';
 import { AuthContext } from '../providers/AuthProviders';
 
 
 const Login = () => {
-    const {signIn} = useContext(AuthContext);
+    const {signIn, GoogleSignIn} = useContext(AuthContext);
 
     const handelLogin = event =>{
         event.preventDefault();
@@ -16,10 +16,21 @@ const Login = () => {
         .then(result => {
             const LoggedUser = result.user;
             console.log(LoggedUser)
+            event.target.reset();
         })
         .catch(error=>{
             console.log(error.message)
         })
+    }
+    
+    const handleGoogleSignIn = (event)=>{
+        GoogleSignIn()
+        .then(result=>{
+            const LoggedUser = result.user;
+            console.log(LoggedUser);
+            event.target.reset();
+        })
+        .catch(error=>{console.log(error.message)})
     }
     return (
         <div className="hero min-h-screen bg-base-200">
@@ -51,6 +62,9 @@ const Login = () => {
                             New to Auth_Master ? Please Register
                         </Link>
                     </form>
+                    <div className="form-control mt-6">
+                            <button onClick={handleGoogleSignIn} className="btn btn-warning">Google</button>
+                    </div>
                 </div>
             </div>
         </div>
