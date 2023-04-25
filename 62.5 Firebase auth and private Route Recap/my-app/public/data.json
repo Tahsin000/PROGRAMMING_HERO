@@ -1,0 +1,92 @@
+[
+    {
+      "_id": 1,
+      "roomType": "Deluxe Room",
+      "description": "Luxurious room with city view",
+      "img": "./images/Double.png",
+      "bed": "King",
+      "people": 2,
+      "price": 200
+    },
+    {
+      "_id": 2,
+      "roomType": "Premium Room",
+      "description": "Spacious room with ocean view",
+      "img": "./images/Double_2.png",
+      "bed": "Queen",
+      "people": 2,
+      "price": 250
+    },
+    {
+      "_id": 3,
+      "roomType": "Executive Suite",
+      "description": "Elegant suite with mountain view",
+      "img": "./images/Double_3.png",
+      "bed": "King",
+      "people": 2,
+      "price": 400
+    },
+    {
+      "_id": 4,
+      "roomType": "Family Suite",
+      "description": "Spacious suite with pool view",
+      "img": "./images/Double_4.png",
+      "bed": "2 Queen",
+      "people": 4,
+      "price": 500
+    },
+    {
+      "_id": 5,
+      "roomType": "Presidential Suite",
+      "description": "Luxurious suite with beach view",
+      "img": "./images/Double_5.png",
+      "bed": "King",
+      "people": 2,
+      "price": 1000
+    },
+    {
+      "_id": 6,
+      "roomType": "Standard Room",
+      "description": "Cozy room with garden view",
+      "img": "./images/Double_6.png",
+      "bed": "Queen",
+      "people": 2,
+      "price": 150
+    },
+    {
+      "_id": 7,
+      "roomType": "Twin Room",
+      "description": "Comfortable room with city view",
+      "img": "./images/Double_7.png",
+      "bed": "2 Twin",
+      "people": 2,
+      "price": 180
+    },
+    {
+      "_id": 8,
+      "roomType": "Poolside Room",
+      "description": "Relaxing room with pool access",
+      "img": "./images/Double_8.png",
+      "bed": "King",
+      "people": 2,
+      "price": 300
+    },
+    {
+      "_id": 9,
+      "roomType": "Business Suite",
+      "description": "Executive suite with city view",
+      "img": "./images/Double_9.png",
+      "bed": "King",
+      "people": 2,
+      "price": 350
+    },
+    {
+      "_id": 10,
+      "roomType": "Oceanfront Suite",
+      "description": "Luxurious suite with oceanfront view",
+      "img": "./images/Double_10.png",
+      "bed": "King",
+      "people": 2,
+      "price": 800
+    }
+  ]
