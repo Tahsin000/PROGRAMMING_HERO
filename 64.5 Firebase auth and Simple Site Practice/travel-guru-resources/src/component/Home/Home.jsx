@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import './Home.css'
 import Nav from '../Nav/Nav';
 // Import Swiper React components
@@ -11,6 +11,14 @@ import { Link } from 'react-router-dom';
 import { FaAngleRight } from "react-icons/fa";
 
 const Home = () => {
+
+    const [locations, setLocaions] = useState([]);
+    useEffect(()=>{
+        fetch('http://localhost:5000/locations')
+        .then(res=>res.json())
+        .then(data=>setLocaions(data))
+    } ,[]);
+
     const myStyle = {
         "fontFamily" :"'Bebas Neue', cursive",
     }
@@ -50,11 +58,13 @@ const Home = () => {
                                 onSlideChange={() => console.log('slide change')}
                                 onSwiper={(swiper) => console.log(swiper)}
                             >
+                                {
+                                    locations.map(location => <SwiperSlide key={location._id} className="h-full" > <Card location={location}> </Card> </SwiperSlide>)
+                                }
+                                
+                                {/* <SwiperSlide className="h-full " > <Card> </Card> </SwiperSlide>
                                 <SwiperSlide className="h-full " > <Card> </Card> </SwiperSlide>
-                                <SwiperSlide className="h-full " > <Card> </Card> </SwiperSlide>
-                                <SwiperSlide className="h-full " > <Card> </Card> </SwiperSlide>
-                                <SwiperSlide className="h-full " > <Card> </Card> </SwiperSlide>
-                                <SwiperSlide className="h-full " > <Card> </Card> </SwiperSlide>
+                                <SwiperSlide className="h-full " > <Card> </Card> </SwiperSlide> */}
                             </Swiper>
                         </section>
                     </div>

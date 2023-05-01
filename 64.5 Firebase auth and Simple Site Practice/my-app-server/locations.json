@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "1",
+    "location": "Cox's Bazar",
+    "img": "https://i.ibb.co/TgwpfxM/Sajek.png",
+    "description": "Cox's Bazar is a popular beach town on the Bay of Bengal, known for its long sandy beach, clear blue waters, and stunning sunsets."
+  },
+  {
+    "_id": "2",
+    "location": "Sundarbans",
+    "img": "https://i.ibb.co/5cfFYyC/image.png",
+    "description": "The Sundarbans is a vast mangrove forest in the delta of the Ganges, Brahmaputra, and Meghna rivers, known for its unique flora and fauna, including the Royal Bengal tiger."
+  },
+  {
+    "_id": "3",
+    "location": "Srimangal",
+    "img": "https://i.ibb.co/j5j5mxs/image.png",
+    "description": "Srimangal is a small town in northeastern Bangladesh, known for its picturesque tea gardens, serene lakes, and vibrant wildlife."
+  },
+  {
+    "_id": "4",
+    "location": "Rangamati",
+    "img": "https://i.ibb.co/sVdRss2/image.png",
+    "description": "Rangamati is a hill district in southeastern Bangladesh, known for its lush green hills, pristine lakes, and indigenous communities."
+  },
+  {
+    "_id": "5",
+    "location": "Bandarban",
+    "img": "https://i.ibb.co/rbjG8sz/image.png",
+    "description": "Bandarban is a scenic hill district in southeastern Bangladesh, known for its trekking trails, waterfalls, and panoramic views of the surrounding mountains."
+  }
+]

@@ -1,0 +1,227 @@
+[
+  {
+    "_location_id": "1",
+    "_id": "1",
+    "img":"./img/_(1).jpg",
+    "name": "Pan Pacific Sonargaon Hotel",
+    "facility": "Swimming pool, restaurant, spa, gym, room service, free WiFi",
+    "star": "5",
+    "price": "250"
+  },
+  {
+    "_location_id": "1",
+    "_id": "2",
+    "img":"./img/_(2).jpg",
+    "name": "Hotel Sea Palace Ltd.",
+    "facility": "Swimming pool, restaurant, room service, free WiFi",
+    "star": "4",
+    "price": "150"
+  },
+  {
+    "_location_id": "1",
+    "_id": "3",
+    "img":"./img/_(3).jpg",
+    "name": "Hotel The Cox Today",
+    "facility": "Swimming pool, restaurant, room service, free WiFi",
+    "star": "4",
+    "price": "180"
+  },
+  {
+    "_location_id": "1",
+    "_id": "4",
+    "img":"./img/_(4).jpg",
+    "name": "Long Beach Hotel",
+    "facility": "Swimming pool, restaurant, spa, gym, room service, free WiFi",
+    "star": "5",
+    "price": "300"
+  },
+  {
+    "_location_id": "1",
+    "_id": "5",
+    "img":"./img/_(5).jpg",
+    "name": "Hotel Coastal Peace",
+    "facility": "Restaurant, room service, free WiFi",
+    "star": "3",
+    "price": "80"
+  },
+  {
+    "_location_id": "2",
+    "_id": "6",
+    "img":"./img/_(6).jpg",
+    "name": "Pan Pacific Sonargaon Hotel",
+    "facility": "Swimming pool, restaurant, spa, gym, room service, free WiFi",
+    "star": "5",
+    "price": "250"
+  },
+  {
+    "_location_id": "2",
+    "_id": "7",
+    "img":"./img/_(7).jpg",
+    "name": "Hotel Royal International",
+    "facility": "Restaurant, room service, free WiFi",
+    "star": "3",
+    "price": "70"
+  },
+  {
+    "_location_id": "2",
+    "_id": "8",
+    "img":"./img/_(8).jpg",
+    "name": "Sundarban Tiger Camp",
+    "facility": "Cultural shows, nature walks, bird watching, fishing, boating, WiFi",
+    "star": "4",
+    "price": "200"
+  },
+  {
+    "_location_id": "2",
+    "_id": "9",
+    "img":"./img/_(9).jpg",
+    "name": "Sundarban Gateway Resort",
+    "facility": "Swimming pool, restaurant, nature walks, bird watching, fishing, boating, WiFi",
+    "star": "4",
+    "price": "180"
+  },
+  {
+    "_location_id": "2",
+    "_id": "10",
+    "img":"./img/_(10).jpg",
+    "name": "Hotel Coastal Peace",
+    "facility": "Restaurant, room service, free WiFi",
+    "star": "3",
+    "price": "80"
+  },
+  {
+    "_location_id": "3",
+    "_id": "11",
+    "img":"./img/_(11).jpg",
+    "name": "Grand Sultan Tea Resort & Golf",
+    "facility": "Swimming pool, golf course, restaurant, spa, gym, room service, free WiFi",
+    "star": "5",
+    "price": "300"
+  },
+  {
+    "_location_id": "3",
+    "_id": "12",
+    "img":"./img/_(12).jpg",
+    "name": "Tea Town Bangladesh Resort",
+    "facility": "Swimming pool, restaurant, room service, free WiFi",
+    "star": "4",
+    "price": "150"
+  },
+  {
+    "_location_id": "3",
+    "_id": "13",
+    "img":"./img/_(12).jpg",
+    "name": "Hotel Green Hill",
+    "facility": "Restaurant, room service, free WiFi",
+    "star": "3",
+    "price": "80"
+  },
+  {
+    "_location_id": "3",
+    "_id": "14",
+    "img":"./img/_(13).jpg",
+    "name": "Hotel Metro International",
+    "facility": "Restaurant, room service, free WiFi",
+    "star": "3",
+    "price": "70"
+  },
+  {
+    "_location_id": "3",
+    "_id": "15",
+    "img":"./img/_(14).jpg",
+    "name": "Novem Eco Resort",
+    "facility": "Restaurant, nature walks, bird watching, fishing, boating, WiFi",
+    "star": "3",
+    "price": "120"
+  },
+  {
+    "_location_id": "4",
+    "_id": "16",
+    "img":"./img/_(15).jpg",
+    "name": "Parjatan Hotel Rangamati",
+    "facility": "Restaurant, room service, free WiFi",
+    "star": "3",
+    "price": "60"
+  },
+  {
+    "_location_id": "4",
+    "_id": "17",
+    "img":"./img/_(16).jpg",
+    "name": "Green Hill Guest House",
+    "facility": "Restaurant, room service, free WiFi",
+    "star": "3",
+    "price": "50"
+  },
+  {
+    "_location_id": "4",
+    "_id": "18",
+    "img":"./img/_(17).jpg",
+    "name": "Hotel Green Hill",
+    "facility": "Restaurant, room service, free WiFi",
+    "star": "3",
+    "price": "70"
+  },
+  {
+    "_location_id": "4",
+    "_id": "19",
+    "img":"./img/_(18).jpg",
+    "name": "Eco Cottage Rangamati",
+    "facility": "Restaurant, room service, free WiFi",
+    "star": "2",
+    "price": "40"
+  },
+  {
+    "_location_id": "4",
+    "_id": "20",
+    "img":"./img/_(19).jpg",
+    "name": "Sairu Hill Resorts",
+    "facility": "Restaurant, room service, free WiFi",
+    "star": "3",
+    "price": "80"
+  },
+  {
+    "_location_id": "5",
+    "_id": "21",
+    "img":"./img/_(20).jpg",
+    "name": "Hill View Resort Bandarban",
+    "facility": "Restaurant, room service, free WiFi",
+    "star": "3",
+    "price": "70"
+  },
+  {
+    "_location_id": "5",
+    "_id": "22",
+    "img":"./img/_(21).jpg",
+    "name": "Sairu Hill Resorts",
+    "facility": "Restaurant, room service, free WiFi",
+    "star": "3",
+    "price": "80"
+  },
+  {
+    "_location_id": "5",
+    "_id": "23",
+    "img":"./img/_(22).jpg",
+    "name": "Shangri La Resort Bandarban",
+    "facility": "Restaurant, room service, free WiFi",
+    "star": "4",
+    "price": "120"
+  },
+  {
+    "_location_id": "5",
+    "_id": "24",
+    "img":"./img/_(2).jpg",
+    "name": "Hotel Green Hill",
+    "facility": "Restaurant, room service, free WiFi",
+    "star": "3",
+    "price": "60"
+  },
+  {
+    "_location_id": "5",
+    "_id": "25",
+    "img":"./img/_(1).jpg",
+    "name": "Hillside Resort Bandarban",
+    "facility": "Restaurant, room service, free WiFi",
+    "star": "2",
+    "price": "50"
+  }
+]

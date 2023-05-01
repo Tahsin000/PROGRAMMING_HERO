@@ -1,14 +1,24 @@
 
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../../../public/HHJN.svg'
 import { FaSearch } from "react-icons/fa";
+import { AuthContext } from '../../Provider/AuthProvider';
+
 
 
 const Nav = () => {
+    const {user, logOut} = useContext(AuthContext);
+
+
     const myStyle = {
         "fontFamily" :"'Montserrat', sans-serif",
         "fontWeight": "500"
+    }
+    const handleSignOut = ()=>{
+        logOut()
+        .then(()=>{})
+        .catch(error=>{console.log(error.message)})
     }
     return (
         <div className='container mx-auto pt-5 text-white' style={myStyle}>
@@ -27,8 +37,17 @@ const Nav = () => {
                         <Link className='px-[1.5rem] py-[0.85rem] rounded-lg hover:text-[#b0b0b0]' to='/'>News</Link>
                         <Link className='px-[1.5rem] py-[0.85rem] rounded-lg hover:text-[#b0b0b0]' to='/'>Destination</Link>
                         <Link className='px-[1.5rem] py-[0.85rem] rounded-lg hover:text-[#b0b0b0]' to='/'>Blog</Link>
-                        <Link className='px-[1.5rem] py-[0.85rem] rounded-lg hover:text-[#b0b0b0]' to='/'>Contact</Link>
-                        <Link className='px-[1.5rem] py-[0.85rem] bg-[#F9A51A] rounded-lg text-black' to='/login'>Login</Link>
+                        
+                        {
+                            user && <>
+                                <Link className='px-[1.5rem] py-[0.85rem] rounded-lg hover:text-[#b0b0b0]' to='/'>{user.email}</Link>
+                                <Link onClick={handleSignOut} className='px-[1.5rem] py-[0.85rem] bg-[#F9A51A] rounded-lg text-black' to='/'>Sing Out</Link>
+                            </> 
+                        }
+                        {
+                            !user &&  <Link className='px-[1.5rem] py-[0.85rem] bg-[#F9A51A] rounded-lg text-black' to='/login'>Sing In</Link>
+                        }
+                       
                     </ul>
                 </div>
             </div>

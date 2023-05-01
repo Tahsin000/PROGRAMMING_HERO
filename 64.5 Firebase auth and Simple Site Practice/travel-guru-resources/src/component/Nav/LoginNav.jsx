@@ -20,7 +20,6 @@ const LoginNav = () => {
                         <Link className='px-[1.5rem] py-[0.85rem] rounded-lg ' to='/'>Destination</Link>
                         <Link className='px-[1.5rem] py-[0.85rem] rounded-lg ' to='/'>Blog</Link>
                         <Link className='px-[1.5rem] py-[0.85rem] rounded-lg ' to='/'>Contact</Link>
-                        <Link className='px-[1.5rem] py-[0.85rem] bg-[#F9A51A] rounded-lg text-black' to='/login'>Login</Link>
                     </ul>
                 </div>
             </div>
