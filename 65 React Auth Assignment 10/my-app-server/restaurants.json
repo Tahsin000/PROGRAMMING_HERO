@@ -1,0 +1,280 @@
+[
+  {
+    "_id": "1",
+    "chefName": "John Smith",
+    "chefImg":"https://i.ibb.co/yPwP1TG/Chef-1.png",
+    "bio": "Gordon Ramsay is a British chef, restaurateur, writer, and television personality. He has been awarded 16 Michelin stars in total and currently holds seven.",
+    "experience": "10 years",
+    "rating": 4.5,
+    "likes": 1000,
+    "recipes": [
+      {
+        "recipeName": "Grilled Salmon",
+        "ingredients": ["salmon", "lemon", "olive oil", "salt", "pepper"],
+        "method": "1. Preheat grill to medium-high heat. 2. Brush salmon fillets with olive oil and season with salt and pepper. 3. Grill salmon for 5-6 minutes on each side, until cooked through. 4. Serve with lemon wedges.",
+        "rating": 4.8,
+        "likes": 500
+      },
+      {
+        "recipeName": "Mushroom Risotto",
+        "ingredients": [
+          "arborio rice",
+          "mushrooms",
+          "onion",
+          "garlic",
+          "butter",
+          "parmesan cheese"
+        ],
+        "method": "1. In a large saucepan, sauté mushrooms, onion, and garlic in butter until tender. 2. Add rice and cook, stirring constantly, for 2-3 minutes. 3. Gradually stir in hot broth, one ladleful at a time, stirring constantly until each addition is absorbed before adding the next. 4. Continue cooking and stirring until the rice is tender and creamy. 5. Stir in parmesan cheese and serve.",
+        "rating": 4.2,
+        "likes": 300
+      },
+      {
+        "recipeName": "Lobster Bisque",
+        "ingredients": [
+          "lobster meat",
+          "chicken broth",
+          "heavy cream",
+          "butter",
+          "onion",
+          "garlic",
+          "thyme",
+          "bay leaf"
+        ],
+        "method": "1. Melt butter in a large saucepan over medium heat. Add onion and garlic, and cook until soft. 2. Add lobster meat, thyme, and bay leaf, and cook for 5-7 minutes. 3. Add chicken broth and bring to a simmer. Cook for 20-25 minutes. 4. Remove bay leaf, and puree the soup in a blender or food processor. 5. Return to the saucepan, and stir in heavy cream. Season with salt and pepper to taste.",
+        "rating": 4.5,
+        "likes": 600
+      }
+    ]
+  },
+  {
+    "_id": "2",
+    "chefName": "Alice Waters",
+    "chefImg":"https://i.ibb.co/dQ6PM1Y/Chef-2.png",
+    "bio": "Alice Waters is an American chef, restaurateur, activist and author. She is the owner of Chez Panisse, a Berkeley, California restaurant famous for its organic, locally grown ingredients and for pioneering California cuisine.",
+    "experience": "8 years",
+    "rating": 4.2,
+    "likes": 800,
+    "recipes": [
+      {
+        "recipeName": "Lobster Bisque",
+        "ingredients": [
+          "lobster meat",
+          "chicken broth",
+          "heavy cream",
+          "butter",
+          "onion",
+          "garlic",
+          "thyme",
+          "bay leaf"
+        ],
+        "method": "1. Melt butter in a large saucepan over medium heat. Add onion and garlic, and cook until soft. 2. Add lobster meat, thyme, and bay leaf, and cook for 5-7 minutes. 3. Add chicken broth and bring to a simmer. Cook for 20-25 minutes. 4. Remove bay leaf, and puree the soup in a blender or food processor. 5. Return to the saucepan, and stir in heavy cream. Season with salt and pepper to taste.",
+        "rating": 4.5,
+        "likes": 600
+      },
+      {
+        "recipeName": "Seared Tuna",
+        "ingredients": [
+          "tuna steaks",
+          "soy sauce",
+          "sesame oil",
+          "garlic",
+          "ginger",
+          "green onions",
+          "lime juice"
+        ],
+        "method": "1. Combine soy sauce, sesame oil, garlic, ginger, and green onions in a shallow dish. 2. Add tuna steaks and marinate for at least 30 minutes. 3. Heat a grill or grill pan over high heat. 4. Cook tuna steaks for 2-3 minutes per side. 5. Squeeze lime juice over the tuna before serving.",
+        "rating": 4.0,
+        "likes": 400
+      },
+      {
+        "recipeName": "Roasted Chicken",
+        "ingredients": [
+          "chicken",
+          "salt",
+          "pepper",
+          "garlic",
+          "butter"
+        ],
+        "method": "1. Preheat the oven to 375 degrees F. 2. Season the chicken with salt and pepper. 3. Rub garlic and butter onto the chicken. 4. Roast the chicken for 1 hour and 20 minutes, or until the internal temperature reaches 165 degrees F. 5. Let the chicken rest for 10 minutes before serving.",
+        "rating": 4.3,
+        "likes": 250
+      }
+    ]
+  },
+  {
+    "_id": "3",
+    "chefName": "John Smith",
+    "chefImg":"https://i.ibb.co/fqh51n7/Chef-3.png",
+    "bio": "James Trevor Oliver, known professionally as Jamie Oliver, is a British chef and restaurateur. He is known for his approachable cuisine, which has led him to front numerous television shows and open many restaurants.",
+    "experience": "10 years",
+    "rating": 4.5,
+    "likes": 1250,
+    "recipes": [
+      {
+        "recipeName": "Grilled Steak",
+        "ingredients": [
+          "steak 1 lb",
+          "salt 1 tsp",
+          "pepper 1 tsp",
+          "garlic 2 cloves",
+          "olive oil 2 tbsp"
+        ],
+        "method": "1. Preheat the grill to medium-high heat. 2. Season both sides of the steak with salt and pepper. 3. Rub garlic and olive oil onto the steak. 4. Grill the steak for 5-6 minutes on each side or until desired doneness. 5. Let the steak rest for 5 minutes before slicing and serving.",
+        "rating": 4.8,
+        "likes": 350
+      },
+      {
+        "recipeName": "Roasted Chicken",
+        "ingredients": [
+          "chicken",
+          "salt",
+          "pepper",
+          "garlic",
+          "butter"
+        ],
+        "method": "1. Preheat the oven to 375 degrees F. 2. Season the chicken with salt and pepper. 3. Rub garlic and butter onto the chicken. 4. Roast the chicken for 1 hour and 20 minutes, or until the internal temperature reaches 165 degrees F. 5. Let the chicken rest for 10 minutes before serving.",
+        "rating": 4.3,
+        "likes": 250
+      },
+      {
+        "recipeName": "Shrimp Scampi",
+        "ingredients": ["shrimp", "garlic", "lemon juice", "white wine", "butter", "parsley"],
+        "method": "1. Heat butter in a skillet. 2. Add garlic and cook for 1-2 minutes. 3. Add shrimp and cook until pink. 4. Add white wine and lemon juice. 5. Serve with chopped parsley. Enjoy!",
+        "rating": 4.7,
+        "likes": 90
+      }
+    ]
+  },
+  {
+    "_id": "4",
+    "chefName": "Maria Garcia",
+    "chefImg":"https://i.ibb.co/qNJhKj6/Chef-4.png",
+    "bio": "Nigella Lucy Lawson is an English food writer and cooking show host. She is the daughter of Nigel Lawson, a former Chancellor of the Exchequer, and Vanessa Lawson, whose family owned the J. Lyons and Co. food and catering business.",
+    "experience": "8 years",
+    "rating": 4.3,
+    "likes": 85,
+    "recipes": [
+      {
+        "recipeName": "Shrimp Scampi",
+        "ingredients": ["shrimp", "garlic", "lemon juice", "white wine", "butter", "parsley"],
+        "method": "1. Heat butter in a skillet. 2. Add garlic and cook for 1-2 minutes. 3. Add shrimp and cook until pink. 4. Add white wine and lemon juice. 5. Serve with chopped parsley. Enjoy!",
+        "rating": 4.7,
+        "likes": 90
+      },
+      {
+        "recipeName": "Chicken Marsala",
+        "ingredients": ["chicken breasts", "mushrooms", "marsala wine", "flour", "butter", "chicken broth"],
+        "method": "1. Dredge chicken breasts in flour. 2. Brown chicken in butter. 3. Remove chicken from skillet and add mushrooms. 4. Deglaze the pan with marsala wine. 5. Add chicken broth and simmer until sauce thickens. 6. Serve with chicken on top. Enjoy!",
+        "rating": 4.5,
+        "likes": 80
+      },
+      {
+        "recipeName": "Grilled Salmon",
+        "ingredients": [
+          "salmon 2 lbs",
+          "olive oil 2 tbsp",
+          "salt 1 tsp",
+          "pepper 1 tsp"
+        ],
+        "method": "Preheat the grill to medium-high heat. Rub salmon with olive oil, salt and pepper. Grill salmon for 6-8 minutes on each side or until it flakes easily with a fork.",
+        "rating": 4.8,
+        "likes": 120
+      }
+    ]
+  },
+  {
+    "_id": "5",
+    "chefName": "Teriyaki Chicken",
+    "chefImg":"https://i.ibb.co/pb51M1C/Chef-5.png",
+    "bio": "Anthony Bourdain was an American chef, author, and television personality. He was a 1978 graduate of The Culinary Institute of America and a veteran of numerous professional kitchens, including many years as executive chef at Brasserie Les Halles in New York City.",
+    "experience": "8 years",
+    "rating": 4.2,
+    "likes": 150,
+    "recipes": [
+      {
+        "recipeName": "Fish Tacos",
+        "ingredients": [
+          "tilapia",
+          "flour tortillas8",
+          "cabbage 1 cup",
+          "sour cream 1/2 cup"
+        ],
+        "method": "Season tilapia with salt and pepper. Cook in a skillet until golden brown. Heat tortillas and top with cooked tilapia, cabbage, and sour cream.",
+        "rating": 4.4,
+        "likes": 90
+      },
+      {
+        "recipeName": "Stuffed Bell Peppers",
+        "ingredients": [
+          "ground beef 1 lb",
+          "bell peppers 4",
+          "rice 1 cup",
+          "tomato sauce 1 can"
+        ],
+        "method": "Cook rice according to package instructions. Brown ground beef in a skillet. Cut tops off bell peppers and remove seeds. Mix cooked rice, ground beef, and tomato sauce. Stuff mixture into bell peppers. Bake at 375 degrees for 30-35 minutes.",
+        "rating": 4.3,
+        "likes": 60
+      },
+      {
+        "recipeName": "Pesto Pasta",
+        "ingredients": [
+          "pasta 1 lb",
+          "basil pesto 1/2 cup",
+          "parmesan cheese 1/2 cup",
+          "cherry tomatoes 1 cup"
+        ],
+        "method": "Cook pasta according to package instructions. Drain and toss with basil pesto and parmesan cheese. Top with cherry tomatoes.",
+        "rating": 4.6,
+        "likes": 80
+      }
+    ]
+  },
+  {
+    "_id": "6",
+    "chefName": "Bobby Flay",
+    "chefImg":"https://i.ibb.co/dDTvf4d/Chef-6.png",
+    "bio": "Padma Lakshmi is an Indian-American author, actress, model, and television host. She has hosted the reality competition show Top Chef since 2006.",
+    "experience": "10 years",
+    "rating": 4.5,
+    "likes": 250,
+    "recipes": [
+      {
+        "recipeName": "Grilled Salmon",
+        "ingredients": [
+          "salmon 2 lbs",
+          "olive oil 2 tbsp",
+          "salt 1 tsp",
+          "pepper 1 tsp"
+        ],
+        "method": "Preheat the grill to medium-high heat. Rub salmon with olive oil, salt and pepper. Grill salmon for 6-8 minutes on each side or until it flakes easily with a fork.",
+        "rating": 4.8,
+        "likes": 120
+      },
+      {
+        "recipeName": "Pesto Pasta",
+        "ingredients": [
+          "pasta 1 lb",
+          "basil pesto 1/2 cup",
+          "parmesan cheese 1/2 cup",
+          "cherry tomatoes 1 cup"
+        ],
+        "method": "Cook pasta according to package instructions. Drain and toss with basil pesto and parmesan cheese. Top with cherry tomatoes.",
+        "rating": 4.6,
+        "likes": 80
+      },
+      {
+        "recipeName": "Fish Tacos",
+        "ingredients": [
+          "tilapia",
+          "flour tortillas8",
+          "cabbage 1 cup",
+          "sour cream 1/2 cup"
+        ],
+        "method": "Season tilapia with salt and pepper. Cook in a skillet until golden brown. Heat tortillas and top with cooked tilapia, cabbage, and sour cream.",
+        "rating": 4.4,
+        "likes": 90
+      }
+    ]
+  }
+]
