@@ -1,0 +1,1 @@
+# 70-2 Insert bulk Data In Database and Load services data
