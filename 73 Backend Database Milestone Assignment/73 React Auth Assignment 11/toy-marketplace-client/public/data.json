@@ -1,0 +1,122 @@
+[
+  {
+    "picture": "https://i.ibb.co/fp8dFRH/New-Project-16.png",
+    "name": "Super Action Hero",
+    "sellerName": "Fun Time Toys",
+    "sellerEmail": "seller1@example.com",
+    "subCategory": "Action Figures",
+    "category": "Outdoor Toys",
+    "price": 19.99,
+    "rating": 4.5,
+    "availableQuantity": 10,
+    "detailDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor tincidunt lorem, at aliquet sapien fringilla at."
+  },
+  {
+    "picture": "https://i.ibb.co/ZzKgkzq/New-Project-15.png",
+    "name": "Magical Unicorn Adventure",
+    "sellerName": "Toyland Emporium",
+    "sellerEmail": "seller2@example.com",
+    "subCategory": "Dolls",
+    "category": "Educational Toys",
+    "price": 14.99,
+    "rating": 4.2,
+    "availableQuantity": 5,
+    "detailDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor tincidunt lorem, at aliquet sapien fringilla at."
+  },
+  {
+    "picture": "https://i.ibb.co/NZ8RdNt/New-Project-14.png",
+    "name": "Robot Masters",
+    "sellerName": "Playful Pals",
+    "sellerEmail": "seller3@example.com",
+    "subCategory": "Building Blocks",
+    "category": "Imaginative Toys",
+    "price": 29.99,
+    "rating": 4.8,
+    "availableQuantity": 8,
+    "detailDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor tincidunt lorem, at aliquet sapien fringilla at."
+  },
+  {
+    "picture": "https://i.ibb.co/FwPfyRR/New-Project-13.png",
+    "name": "Princess Tea Party",
+    "sellerName": "Happy Kids Toys",
+    "sellerEmail": "seller4@example.com",
+    "subCategory": "Puzzles",
+    "category": "Outdoor Toys",
+    "price": 9.99,
+    "rating": 4.0,
+    "availableQuantity": 12,
+    "detailDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor tincidunt lorem, at aliquet sapien fringilla at."
+  },
+  {
+    "picture": "https://i.ibb.co/FgsMZ74/New-Project-11.png",
+    "name": "Dino World Explorer",
+    "sellerName": "Dreamland Toys",
+    "sellerEmail": "seller5@example.com",
+    "subCategory": "Outdoor Toys",
+    "category": "Outdoor Toys",
+    "price": 24.99,
+    "rating": 4.7,
+    "availableQuantity": 3,
+    "detailDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor tincidunt lorem, at aliquet sapien fringilla at."
+  },
+  {
+    "picture": "https://i.ibb.co/7VfXd5T/New-Project-21.png",
+    "name": "Pirate Treasure Hunt",
+    "sellerName": "Toy Kingdom",
+    "sellerEmail": "seller6@example.com",
+    "subCategory": "Educational Toys",
+    "category": "Imaginative Toys",
+    "price": 17.99,
+    "rating": 4.4,
+    "availableQuantity": 6,
+    "detailDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor tincidunt lorem, at aliquet sapien fringilla at."
+  },
+  {
+    "picture": "https://i.ibb.co/wKKyyBh/New-Project-20.png",
+    "name": "Space Adventure Mission",
+    "sellerName": "Magic Toy Box",
+    "sellerEmail": "seller7@example.com",
+    "subCategory": "Vehicles",
+    "category": "Educational Toys",
+    "price": 12.99,
+    "rating": 4.1,
+    "availableQuantity": 15,
+    "detailDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor tincidunt lorem, at aliquet sapien fringilla at."
+  },
+  {
+    "picture": "https://i.ibb.co/TPnvRYt/New-Project-19.png",
+    "name": "Fairy Garden Delight",
+    "sellerName": "Wonder Toys",
+    "sellerEmail": "seller8@example.com",
+    "subCategory": "Stuffed Animals",
+    "category": "Imaginative Toys",
+    "price": 21.99,
+    "rating": 4.6,
+    "availableQuantity": 2,
+    "detailDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor tincidunt lorem, at aliquet sapien fringilla at."
+  },
+  {
+    "picture": "https://i.ibb.co/QkJZvBj/New-Project-18.png",
+    "name": "Construction Builder Setv",
+    "sellerName": "Adventure Toys",
+    "sellerEmail": "seller9@example.com",
+    "subCategory": "Art and Crafts",
+    "category": "Educational Toys",
+    "price": 11.99,
+    "rating": 4.3,
+    "availableQuantity": 9,
+    "detailDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor tincidunt lorem, at aliquet sapien fringilla at."
+  },
+  {
+    "picture": "https://i.ibb.co/Wy6fQPv/New-Project-17.png",
+    "name": "Pet Vet Clinic",
+    "sellerName": "Super Toy Store",
+    "sellerEmail": "seller10@example.com",
+    "subCategory": "Board Games",
+    "category": "Educational Toys",
+    "price": 16.99,
+    "rating": 4.9,
+    "availableQuantity": 7,
+    "detailDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor tincidunt lorem, at aliquet sapien fringilla at."
+  }
+]

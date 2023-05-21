@@ -1,0 +1,169 @@
+[
+  {
+    "picture": "https://i.ibb.co/Lpq61WH/New-Project-30.png",
+    "name": "LEGO DUPLO My First Alphabet Train",
+    "sellerName": "Amazon.com",
+    "sellerEmail": "seller@amazon.com",
+    "category": "Educational Toys",
+    "price": 19.99,
+    "rating": 4.5,
+    "availableQuantity": 10,
+    "detailDescription": "This LEGO DUPLO My First Alphabet Train is a fun and educational toy for toddlers. It helps them learn the alphabet while they play. The train has 10 alphabet blocks that can be attached to the train or used as stacking blocks. The train also has a light and sound function that helps toddlers learn about cause and effect. This toy is perfect for toddlers ages 18 months and up."
+  },
+  {
+    "picture": "https://i.ibb.co/Xb3wy8V/New-Project-29.png",
+    "name": "Go Dinosaur Learning",
+    "sellerName": "Target",
+    "sellerEmail": "seller@target.com",
+    "category": "Educational Toys",
+    "price": 24.99,
+    "rating": 4.3,
+    "availableQuantity": 5,
+    "detailDescription": "This VTech Switch & Go Dinosaur Learning Remote Control is a fun and educational toy for preschoolers. It helps them learn about dinosaurs while they play. The remote control has 4 different buttons that activate different dinosaur sounds and actions. The dinosaur also has a light and sound function that helps preschoolers learn about cause and effect. This toy is perfect for preschoolers ages 3 and up."
+  },
+  {
+    "picture": "https://i.ibb.co/7vdDK1q/New-Project-28.png",
+    "name": "Doug Geometric Shape",
+    "sellerName": "Walmart",
+    "sellerEmail": "seller@walmart.com",
+    "category": "Educational Toys",
+    "price": 14.99,
+    "rating": 4.4,
+    "availableQuantity": 15,
+    "detailDescription": "This Melissa & Doug Geometric Shape Sorter Bin is a fun and educational toy for toddlers. It helps them learn about shapes while they play. The bin has 6 different shapes that can be sorted into the corresponding holes. The bin also has a lid that can be used as a sorting tray. This toy is perfect for toddlers ages 18 months and up."
+  },
+  {
+    "picture": "https://i.ibb.co/rdCGJJP/New-Project-27.png",
+    "name": "Fisher-Price Laugh",
+    "sellerName": "Toys R Us",
+    "sellerEmail": "seller@toysrus.com",
+    "category": "Educational Toys",
+    "price": 19.99,
+    "rating": 4.2,
+    "availableQuantity": 10,
+    "detailDescription": "This Fisher-Price Laugh & Learn Puppy's Learning Keys is a fun and educational toy for toddlers. It helps them learn about letters, numbers, and shapes while they play. The toy has 10 different keys that each play a different sound or song. The toy also has a light and sound function that helps toddlers learn about cause and effect. This toy is perfect for toddlers ages 12 months and up."
+  },
+  {
+    "picture": "https://i.ibb.co/gP4dWMS/New-Project-26.png",
+    "name": "LeapFrog Letter Factory",
+    "sellerName": "Buy Buy Baby",
+    "sellerEmail": "seller@buybuybaby.com",
+    "category": "Educational Toys",
+    "price": 19.99,
+    "rating": 4.1,
+    "availableQuantity": 10,
+    "detailDescription": "This LeapFrog Letter Factory Magnetic Building Blocks is a fun and educational toy for preschoolers. It helps them learn about letters and shapes while they play. The blocks are magnetic, so they can be easily stacked and built into different shapes. The blocks also have letters and shapes printed on them, which helps preschoolers learn their ABCs and shapes. This toy is perfect for preschoolers ages 3 and up."
+  },
+
+  {
+    "picture": "https://i.ibb.co/XFPSSNy/New-Project-22.png",
+    "name": "Tricycle",
+    "sellerName": "Toys R Us",
+    "sellerEmail": "toysrus@example.com",
+    "category": "Outdoor Toys",
+    "price": 59.99,
+    "rating": 4.5,
+    "availableQuantity": 10,
+    "detailDescription": "This tricycle is perfect for toddlers who are learning to ride a bike. It has a comfortable seat and a sturdy frame that can withstand even the most adventurous children."
+  },
+  {
+    "picture": "https://i.ibb.co/rGgYsBM/New-Project-24.png",
+    "name": "Sandbox",
+    "sellerName": "Amazon",
+    "sellerEmail": "amazon@example.com",
+    "category": "Outdoor Toys",
+    "price": 99.99,
+    "rating": 4.0,
+    "availableQuantity": 5,
+    "detailDescription": "This sandbox is perfect for children of all ages. It's made from durable materials that can withstand the elements, and it's easy to assemble."
+  },
+  {
+    "picture": "https://i.ibb.co/GR3BD0w/New-Project-26.png",
+    "name": "Swing Set",
+    "sellerName": "Walmart",
+    "sellerEmail": "walmart@example.com",
+    "category": "Outdoor Toys",
+    "price": 199.99,
+    "rating": 4.5,
+    "availableQuantity": 2,
+    "detailDescription": "This swing set is perfect for families with children of all ages. It has a variety of swings and slides, and it's made from durable materials that can withstand the elements."
+  },
+  {
+    "picture": "https://i.ibb.co/X4Hmpgm/New-Project-23.png",
+    "name": "Balloon",
+    "sellerName": "Party City",
+    "sellerEmail": "partycity@example.com",
+    "category": "Outdoor Toys",
+    "price": 1.99,
+    "rating": 5.0,
+    "availableQuantity": 100,
+    "detailDescription": "This balloon is perfect for parties and other events. It's made from high-quality materials and it's available in a variety of colors."
+  },
+  {
+    "picture": "https://i.ibb.co/GkrJdRd/New-Project-22.png",
+    "name": "Frisbee",
+    "sellerName": "Dick's Sporting Goods",
+    "sellerEmail": "dickssportinggoods@example.com",
+    "category": "Outdoor Toys",
+    "price": 9.99,
+    "rating": 4.0,
+    "availableQuantity": 50,
+    "detailDescription": "This frisbee is perfect for playing fetch or other outdoor games. It's made from durable materials and it's available in a variety of colors."
+  },
+
+  {
+    "picture": "https://i.ibb.co/98D5ng7/1.png",
+    "name": "Dollhouse",
+    "sellerName": "Toys R Us",
+    "sellerEmail": "toysrus@example.com",
+    "category": "Imaginative Toys",
+    "price": 59.99,
+    "rating": 4.5,
+    "availableQuantity": 10,
+    "detailDescription": "This dollhouse is perfect for children who love to imagine and create. It comes with a variety of furniture and accessories, so children can create their own unique world."
+  },
+  {
+    "picture": "https://i.ibb.co/SQZ3N2V/New-Project-23.png",
+    "name": "Toy Kitchen",
+    "sellerName": "Amazon",
+    "sellerEmail": "amazon@example.com",
+    "category": "Imaginative Toys",
+    "price": 99.99,
+    "rating": 4.0,
+    "availableQuantity": 5,
+    "detailDescription": "This toy kitchen is perfect for children who love to play pretend. It comes with a variety of appliances and food items, so children can create their own restaurant or cafe."
+  },
+  {
+    "picture": "https://i.ibb.co/YQDV30f/New-Project-24.png",
+    "name": "Toy Doctor Set",
+    "sellerName": "Walmart",
+    "sellerEmail": "walmart@example.com",
+    "category": "Imaginative Toys",
+    "price": 199.99,
+    "rating": 4.5,
+    "availableQuantity": 2,
+    "detailDescription": "This toy doctor set is perfect for children who love to play doctor. It comes with a variety of medical supplies, so children can pretend to be doctors and nurses."
+  },
+  {
+    "picture": "https://i.ibb.co/BGNW6jn/New-Project-25.png",
+    "name": "Toy Construction Set",
+    "sellerName": "Party City",
+    "sellerEmail": "partycity@example.com",
+    "category": "Imaginative Toys",
+    "price": 1.99,
+    "rating": 5.0,
+    "availableQuantity": 100,
+    "detailDescription": "This toy construction set is perfect for children who love to build things. It comes with a variety of blocks and other materials, so children can create their own unique structures."
+  },
+  {
+    "picture": "https://i.ibb.co/Rbgg8WZ/2.png",
+    "name": "Toy Art Set",
+    "sellerName": "Dick's Sporting Goods",
+    "sellerEmail": "dickssportinggoods@example.com",
+    "category": "Imaginative Toys",
+    "price": 9.99,
+    "rating": 4.0,
+    "availableQuantity": 50,
+    "detailDescription": "This toy art set is perfect for children who love to express themselves creatively. It comes with a variety of art supplies, so children can create their own unique masterpieces."
+  }
+]
