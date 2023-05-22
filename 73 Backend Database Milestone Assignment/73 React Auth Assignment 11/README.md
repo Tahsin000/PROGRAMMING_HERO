@@ -82,6 +82,6 @@
 
 # UI
 
-![ui-1](assets/ui%20(2).png)
+![ui-1](toy-marketplace-client/assets/ui%20(2).png)
 
-![ui-1](assets/ui%20(1).png)
+![ui-1](toy-marketplace-client/assets/ui%20(1).png)
