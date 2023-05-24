@@ -1,12 +1,13 @@
 import React from "react";
 import img from "../../../assets/home/chef-service.jpg";
+import "./About.css";
 
 const About = () => {
   return (
     <div className="py-20">
-      <div className="relative">
-        <img src={img} alt="" />
-        <div className="absolute top-[20%] md:px-24 px-5 text-center">
+      <div className="About-item p-16 bg-fixed" >
+        {/* <img className="bg-fixed bg-[url('../../../assets/home/chef-service.jpg')]" src={img} alt="" /> */}
+        <div className="md:px-24 px-5 text-center">
           <div className="bg-white md:px-32 md:py-10 p-5">
             <h2 className="text-3xl py-5">Bistro Boss</h2>
             <p>

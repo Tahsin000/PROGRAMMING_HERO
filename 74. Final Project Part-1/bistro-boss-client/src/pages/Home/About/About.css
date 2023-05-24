@@ -1,9 +1,8 @@
-.Featured-item{
-    position: relative;
+.About-item{
     /* background: linear-gradient(rgba(29, 38, 113, 0.2), rgba(195, 55, 100, 0.8)), url("../../../assets/home/featured.jpg"); */
     /* background: url('../../../assets/home/featured.jpg'), rgba(44, 44, 44, 0.644); */
     /* background-blend-mode:multiply; */
-    background-image: url('../../../assets/home/featured.png');
+    background-image: url('../../../assets/home/chef-service.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
