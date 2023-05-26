@@ -1,0 +1,1 @@
+# 75-2 Implement Cover With With Blur Parallax Using React Parallax
