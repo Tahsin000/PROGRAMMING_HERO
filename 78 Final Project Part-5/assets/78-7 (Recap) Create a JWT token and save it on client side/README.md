@@ -1,0 +1,1 @@
+# 78-7 (Recap) Create a JWT token and save it on client side
