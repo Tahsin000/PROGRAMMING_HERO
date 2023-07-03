@@ -1,0 +1,38 @@
+[
+    {
+        "name" : "David Wilson",
+        "instructorName" : "Life Drawing",
+        "instructorEmail" : "david.wilson@example.com",
+        "price" : "43",
+        "image" : "https://i.ibb.co/ZVzqRVC/image-3.png",
+        "status" : "approved",
+        "email" : "piash@gmail.com"
+    },
+    {
+        "name" : "Color Theory Workshop",
+        "instructorName" : "Life Drawing",
+        "instructorEmail" : "david.wilson@example.com",
+        "price" : "23",
+        "image" : "https://i.ibb.co/ZVzqRVC/image-3.png",
+        "status" : "approved",
+        "email" : "piash@gmail.com"
+    },
+    {
+        "name" : "Perspective Drawing",
+        "instructorName" : "Alex Nguyen",
+        "instructorEmail" : "alex.nguyen@example.com",
+        "price" : "25",
+        "image" : "https://i.ibb.co/dgSxbrW/image-9.png",
+        "status" : "approved",
+        "email" : "piash@gmail.com"
+    },
+    {
+        "name" : "Cartooning Workshop",
+        "instructorName" : "Jessica Martinez",
+        "instructorEmail" : "jessica.martinez@example.com",
+        "price" : "15",
+        "image" : "https://i.ibb.co/CnSyFFJ/image-4.png",
+        "status" : "approved",
+        "email" : "piash@gmail.com"
+    }
+]
