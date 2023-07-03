@@ -13,6 +13,7 @@ const SignUp = () => {
     register,
     handleSubmit,
     reset,
+    watch,
     formState: { errors },
   } = useForm();
 
