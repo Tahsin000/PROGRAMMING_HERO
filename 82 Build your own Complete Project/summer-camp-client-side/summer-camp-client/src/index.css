@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Exo 2', sans-serif;
+}
+
+@layer components {
+  .btn-primary {
+    @apply btn bg-primary text-[#fff] hover:text-primary hover:border-primary hover:bg-transparent;
+  }
+  .btn-secondary {
+    @apply btn bg-secondary text-[#fff] hover:text-secondary hover:border-secondary hover:bg-transparent;
+  }
+  .btn-primary-outline {
+    @apply btn hover:bg-primary hover:text-[#fff] text-primary border-primary bg-transparent;
+  }
+  .btn-secondary-outline {
+    @apply btn hover:bg-secondary hover:text-[#fff] text-secondary border-secondary bg-transparent;
+  }
+}

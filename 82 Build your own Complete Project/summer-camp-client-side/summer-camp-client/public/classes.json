@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Figure Drawing",
+    "instructorName": "John Smith",
+    "instructorEmail": "john.smith@example.com",
+    "availableSeats": 10,
+    "price": 20.99,
+    "image": "https://i.ibb.co/FhmKdDc/image.png",
+    "status": "pending"
+  },
+  {
+    "name": "Portrait Drawing",
+    "instructorName": "Emily Johnson",
+    "instructorEmail": "emily.johnson@example.com",
+    "availableSeats": 5,
+    "price": 15.99,
+    "image": "https://i.ibb.co/8KRTGG1/image-1.png",
+    "status": "pending"
+  },
+  {
+    "name": "Sketching Workshop",
+    "instructorName": "John Smith",
+    "instructorEmail": "john.smith@example.com",
+    "availableSeats": 10,
+    "price": 20.99,
+    "image": "https://i.ibb.co/g9NVWTm/image-2.png",
+    "status": "pending"
+  },
+  {
+    "name": "Watercolor Painting",
+    "instructorName": "Emily Johnson",
+    "instructorEmail": "emily.johnson@example.com",
+    "availableSeats": 5,
+    "price": 15.99,
+    "image": "https://i.ibb.co/7yhbYKG/image-7.png",
+    "status": "pending"
+  },
+  {
+    "name": "Digital Art Workshop",
+    "instructorName": "Sarah Davis",
+    "instructorEmail": "sarah.davis@example.com",
+    "availableSeats": 8,
+    "price": 18.99,
+    "image": "https://i.ibb.co/18cvYLS/image-6.png",
+    "status": "pending"
+  },
+  {
+    "name": "Ink Drawing",
+    "instructorName": "Michael Thompson",
+    "instructorEmail": "michael.thompson@example.com",
+    "availableSeats": 12,
+    "price": 24.99,
+    "image": "https://i.ibb.co/dD6rdZz/image-5.png",
+    "status": "pending"
+  },
+  {
+    "name": "Cartooning Workshop",
+    "instructorName": "Jessica Martinez",
+    "instructorEmail": "jessica.martinez@example.com",
+    "availableSeats": 15,
+    "price": 17.99,
+    "image": "https://i.ibb.co/CnSyFFJ/image-4.png",
+    "status": "pending"
+  },
+  {
+    "name": "Life Drawing",
+    "instructorName": "David Wilson",
+    "instructorEmail": "david.wilson@example.com",
+    "availableSeats": 6,
+    "price": 29.99,
+    "image": "https://i.ibb.co/ZVzqRVC/image-3.png",
+    "status": "pending"
+  },
+  {
+    "name": "Color Theory Workshop",
+    "instructorName": "Sophia Adams",
+    "instructorEmail": "sophia.adams@example.com",
+    "availableSeats": 20,
+    "price": 14.99,
+    "image": "https://i.ibb.co/gRq66NH/image-10.png",
+    "status": "pending"
+  },
+  {
+    "name": "Perspective Drawing",
+    "instructorName": "Alex Nguyen",
+    "instructorEmail": "alex.nguyen@example.com",
+    "availableSeats": 7,
+    "price": 21.99,
+    "image": "https://i.ibb.co/dgSxbrW/image-9.png",
+    "status": "pending"
+  }
+]
