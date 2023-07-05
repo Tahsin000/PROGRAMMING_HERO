@@ -25,3 +25,7 @@
 ## [Milestone 11: Backend And Database Integrate](https://github.com/Tahsin000/PROGRAMMING_HERO/tree/11.-Backend-And-Database-Integrate)
 
 ## [Milestone 12: Final Project (Complete Website)](https://github.com/Tahsin000/PROGRAMMING_HERO/tree/12.-Final-Project-(Complete-Website))
+
+## [Milestone 13.-Explore-Different-New-Technologies-With-Our-Instructors](https://github.com/Tahsin000/PROGRAMMING_HERO/tree/13.-Explore-Different-New-Technologies-With-Our-Instructors)
+
+
