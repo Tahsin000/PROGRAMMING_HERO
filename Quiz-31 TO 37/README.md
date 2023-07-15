@@ -1,4 +1,4 @@
-# Quiz-25 [Module 25: Tour of DOM (Document Object Model)]
+# Quiz-31 [Module 31: JS Recap and Basic ES6, ES2015]
 
 ![Alt text](./assets/image.png)
 ![Alt text](./assets/image-1.png)
@@ -11,7 +11,7 @@
 ![Alt text](./assets/image-8.png)
 ![Alt text](./assets/image-9.png)
 
-# Quiz-26 [Module 26: Event, addEventListener, Event bubble]
+# Quiz-32 [Module 32: (advanced) ES6, Class, Inheritance]
 
 ![Alt text](./assets/image-10.png)
 ![Alt text](./assets/image-11.png)
@@ -24,7 +24,7 @@
 ![Alt text](./assets/image-18.png)
 ![Alt text](./assets/image-19.png)
 
-# Quiz-27 [Module 27: Simple Interactive bank website (Baap Er Bank)]
+# Quiz-33 [Module 33: API, JSON, Data load, dynamic website]
 
 ![Alt text](./assets/image-20.png)
 ![Alt text](./assets/image-21.png)
@@ -36,8 +36,8 @@
 ![Alt text](./assets/image-27.png)
 ![Alt text](./assets/image-28.png)
 ![Alt text](./assets/image-29.png)
- 
-# Quiz-28 [Module 28: Bank Calculation Using Functions(advanced)]
+
+# Quiz-34 [Module 34: API Examples and edge cases]
 
 ![Alt text](./assets/image-30.png)
 ![Alt text](./assets/image-31.png)
@@ -50,7 +50,7 @@
 ![Alt text](./assets/image-38.png)
 ![Alt text](./assets/image-39.png)
 
-# Quiz-29 [Module 29: Shopping Cart and Pin Matcher]
+# Quiz-35 [Module 35: API Recap with Phone hunter]
 
 ![Alt text](./assets/image-40.png)
 ![Alt text](./assets/image-41.png)
@@ -63,25 +63,28 @@
 ![Alt text](./assets/image-48.png)
 ![Alt text](./assets/image-49.png)
 
+# Quiz-36 [Module 36: (advanced) Mastering in JS Objects]
 
+![Alt text](./assets/image-50.png)
+![Alt text](./assets/image-51.png)
+![Alt text](./assets/image-52.png)
+![Alt text](./assets/image-53.png)
+![Alt text](./assets/image-54.png)
+![Alt text](./assets/image-55.png)
+![Alt text](./assets/image-56.png)
+![Alt text](./assets/image-57.png)
+![Alt text](./assets/image-58.png)
+![Alt text](./assets/image-59.png)
 
+# Quiz-37 [Module 37: Understand Common JavaScript Concepts]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![Alt text](./assets/image-60.png)
+![Alt text](./assets/image-61.png)
+![Alt text](./assets/image-62.png)
+![Alt text](./assets/image-63.png)
+![Alt text](./assets/image-64.png)
+![Alt text](./assets/image-65.png)
+![Alt text](./assets/image-66.png)
+![Alt text](./assets/image-67.png)
+![Alt text](./assets/image-68.png)
+![Alt text](./assets/image-69.png)
