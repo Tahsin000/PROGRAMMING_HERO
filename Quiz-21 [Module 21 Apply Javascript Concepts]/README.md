@@ -1,4 +1,4 @@
-# Quiz-21
+# Quiz-21 [Module 21 Apply Javascript Concepts]
 
 ![Alt text](./assets/image.png)
 ![Alt text](./assets/image-1.png)

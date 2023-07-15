@@ -1,4 +1,4 @@
-# Quiz-24-5
+# Quiz-24-5 [Module 24.5 Basic JavaScript Bonus Module]
 
 ![Alt text](./assets/image.png)
 ![Alt text](./assets/image-1.png)

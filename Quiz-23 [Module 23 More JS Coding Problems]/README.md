@@ -1,4 +1,4 @@
-# Quiz-23
+# Quiz-23 [Module 23 More JS Coding Problems]
 
 ![Alt text](./assets/image.png)
 ![Alt text](./assets/image-1.png)

@@ -1,4 +1,4 @@
-# Quiz-22
+# Quiz-22 [Module 22 JavaScript Simple Coding Problems]
 
 ![Alt text](./assets/image.png)
 ![Alt text](./assets/image-1.png)
