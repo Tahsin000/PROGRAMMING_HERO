@@ -1,4 +1,5 @@
 import React from 'react';
+import Sidebar from './Sidebar';
 
 export const metadata = {
     title: 'Dashboard | Next Hero',
@@ -7,8 +8,8 @@ export const metadata = {
 
 const DashboardLayout = ({children}) => {
     return (
-        <div>
-            Side_bar
+        <div className='flex container mx-auto'>
+            <Sidebar/>
             {children }
         </div>
     );
