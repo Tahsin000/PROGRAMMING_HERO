@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Template</title>
+    <!-- Include Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div id="option_id"></div>
+    </div>
+    <!-- Include Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+      // JavaScript for handling the quiz logic goes here
+      // You can add your own JavaScript code to manage questions, answers, and scoring.
+
+      // Select the 'option_id' element
+      const option_id = document.getElementById("option_id");
+
+      // Make a fetch request to retrieve JSON data from a server
+      fetch("./quiz.json")
+          .then((response) => {
+              if (!response.ok) {
+                  throw new Error("Network response was not ok");
+              }
+              return response.json();
+          })
+          .then((jsonData) => {
+                // Loop through the JSON data
+      jsonData.forEach((item, loopingIndex) => {
+        const itemDiv = document.createElement("div");
+        const titleHeading = document.createElement("h2");
+        titleHeading.textContent = `${item.title}`;
+        titleHeading.classList.add('text-center', 'mt-4')
+        itemDiv.appendChild(titleHeading);
+
+        item.details.forEach((detail, index) => {
+          const newDiv = document.createElement("div");
+          newDiv.classList.add("mt-5");
+          newDiv.innerHTML = `
+            <div class="d-flex justify-content-center row">
+              <div class="col-md-10 col-lg-10">
+                <div class="border">
+                  <div class="question bg-white p-3 border-bottom">
+                    <div class="d-flex flex-row justify-content-between align-items-center mcq">
+                      <div class="d-flex flex-row align-items-center question-title">
+                        <h3 class="text-danger">${index + 1}.</h3>
+                        <h5 class="mt-1 ml-2">${detail.question}</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="question bg-white p-3 border-bottom">
+                    ${detail.options.map((option, optionIndex) => `
+                      <div class="ans ml-2" id="option_selection_${index}">
+                        <label class="radio">
+                          <input type="radio" name="question_${index}" value="${option}" ${optionIndex === detail.correctIndex ? 'checked' : 'disabled'}>
+                          <span>${option}</span>
+                        </label>
+                        <small style="font-size: 20px">${optionIndex === detail.correctIndex ? '✔' : ''}</small>
+                      </div>
+                    `).join('')}
+                  </div>
+                </div>
+              </div>
+            </div>
+          `;
+
+          // Append the newDiv to the 'option_id' element
+          itemDiv.appendChild(newDiv);
+        });
+
+        // Append the itemDiv to the 'option_id' element
+        option_id.appendChild(itemDiv);
+      });
+    })
+          .catch((error) => {
+              console.error("There was a problem with the fetch operation:", error);
+          });
+  </script>
+  </body>
+</html>
