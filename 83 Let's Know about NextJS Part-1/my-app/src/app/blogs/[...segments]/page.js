@@ -1,5 +1,5 @@
 
-const SingleBlog = ({params}) => {
+const SingleBlog = ({params, se}) => {
     const [year , id] = params.segments;
 
     return (
