@@ -1,0 +1,1288 @@
+[
+  {
+    "title": "Module 39: More about JavaScript",
+    "details": [
+      {
+        "type": "mcq",
+        "options": [
+          "The process of removing unused CSS from a web page",
+          "The process of freeing up memory that is no longer being used by a program",
+          "The process of optimizing code for faster execution",
+          "The process of removing unused JavaScript code from a web page"
+        ],
+
+        "question": "What is garbage collection in JavaScript?",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "Synchronous code execution means that the code is executed without waiting for the previous line to complete, while asynchronous code execution means that the code is executed in sequential order.",
+          "Synchronous code execution means that the code is executed in a sequential order, while asynchronous code execution means that the code is executed without waiting for the previous line to complete.",
+          "Synchronous code execution means that the code is executed without any delays, while asynchronous code execution means that the code is delayed before execution.",
+          "Synchronous code execution means that the code is executed in parallel, while asynchronous code execution means that the code is executed in a single thread."
+        ],
+
+        "question": "What is the difference between synchronous and asynchronous code execution in JavaScript?",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "A data structure that stores events and their handlers in a queue",
+          "A JavaScript engine that executes code in a single thread",
+          "A process that allows JavaScript to interact with the DOM",
+          "A mechanism that allows asynchronous code to be executed in JavaScript"
+        ],
+
+        "question": "What is the event loop in JavaScript?",
+        "correctIndex": 3
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "setTimeout executes a function once after a specified delay, while setInterval executes a function repeatedly at a specified interval.",
+          "setTimeout executes a function repeatedly at a specified interval, while setInterval executes a function once after a specified delay.",
+          "setTimeout and setInterval are interchangeable and have the same behavior in JavaScript.",
+          "etTimeout and setInterval are used for completely different purposes in JavaScript and cannot be compared."
+        ],
+
+        "question": "What is the difference between setTimeout and setInterval in JavaScript?",
+        "correctIndex": 0
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "Use the stop method to cancel the timer",
+          "Use the pause method to pause the timer",
+          "Use the clearTimeout or clearInterval method to cancel the timer",
+          "There is no way to cancel a setTimeout or setInterval once it has been set"
+        ],
+
+        "question": "How do you cancel a setTimeout or setInterval in JavaScript?",
+        "correctIndex": 2
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "An IOU for a sandwich from your co-worker who always forgets to bring lunch",
+          "A guarantee that your JavaScript code will always work perfectly without any errors",
+          "A way to make a solemn vow to never use var again in your code",
+          "An object that represents a value that may not be available yet, but will be resolved or rejected in the future"
+        ],
+
+        "question": "What is a Promise in JavaScript?",
+        "correctIndex": 3
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "Yes, you can use await anywhere in your code",
+          "No, await can only be used inside an async function",
+          "await can be used outside of an async function, but it will not work correctly",
+          "It depends on the browser or JavaScript engine being used"
+        ],
+
+        "question": "Can you use await outside of an async function?",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "A loop that runs events in parallel on multiple threads",
+          "A loop that runs events sequentially on a single thread",
+          "A loop that waits for user input before executing events",
+          "A loop that is used to synchronize multiple threads in a multi-threaded environment"
+        ],
+
+        "question": "What is the event loop in JavaScript?",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "Synchronous programming can only run on a single thread, while asynchronous programming can run on multiple threads.",
+          "Synchronous programming executes code sequentially, while asynchronous programming does not.",
+          "Synchronous programming is faster than asynchronous programming.",
+          "Synchronous programming is easier to debug than asynchronous programming."
+        ],
+
+        "question": "What is the main difference between synchronous and asynchronous programming?",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "A syntax error caused by a misspelled variable name",
+          "A reference error caused by an undefined variable",
+          "An error thrown by a function that is not defined",
+          "An error caused by trying to divide by zero"
+        ],
+
+        "question": "Which of the following is an example of a JavaScript runtime error?",
+        "correctIndex": 3
+      }
+    ]
+  },
+
+  {
+    "title": "Module 40: Common Error Types in JS",
+    "details": [
+      {
+        "type": "mcq",
+        "options": ["SyntaxError", "ReferenceError", "TypeError", "RangeError"],
+
+        "question": "What type of error is commonly caused by referencing a variable or function that has not been defined?",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": ["SyntaxError", "ReferenceError", "TypeError", "RangeError"],
+
+        "question": "What type of error is commonly caused by trying to perform an operation on a value that is not of the expected type?",
+        "correctIndex": 2
+      },
+      {
+        "type": "mcq",
+        "options": ["SyntaxError", "ReferenceError", "TypeError", "RangeError"],
+
+        "question": "What type of error is commonly caused by trying to access an array element that does not exist? (try to google it)",
+        "correctIndex": 3
+      },
+      {
+        "type": "mcq",
+        "options": ["SyntaxError", "ReferenceError", "TypeError", "RangeError"],
+
+        "question": "What type of error is commonly caused by trying to call a function that does not exist?",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": ["ReferenceError", "TypeError", "SyntaxError", "RangeError"],
+
+        "question": "What type of error will the following code throw?<pre class=\"ql-syntax\" spellcheck=\"false\">const num = 10;\nnum();\n</pre>",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": ["SyntaxError", "TypeError", "ReferenceError", "RangeError"],
+
+        "question": "What type of error will the following code snippet produce?<pre class=\"ql-syntax\" spellcheck=\"false\">let x = 10;\nx = y + 5;\nconsole.log(x);\n</pre>",
+        "correctIndex": 2
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "RangeError",
+          "TypeError",
+          "ReferenceError",
+          "None of the above"
+        ],
+
+        "question": "What type of error will the following code snippet produce?<pre class=\"ql-syntax\" spellcheck=\"false\">const obj = { name: 'John' };\nObject.keys(obj).forEach(prop =&gt; console.log(prop));\n</pre>",
+        "correctIndex": 3
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "SyntaxError",
+          "TypeError",
+          "ReferenceError",
+          "None of the above"
+        ],
+
+        "question": "What type of error will the following code snippet produce?<pre class=\"ql-syntax\" spellcheck=\"false\">const name = 'John';\nname.toUpperCase = () =&gt; 'JOHN';\nconsole.log(name.toUpperCase());\n</pre>",
+        "correctIndex": 3
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "SyntaxError",
+          "TypeError",
+          "ReferenceError",
+          "RangeError",
+          "No error in the code snippet"
+        ],
+
+        "question": "What type of error will the following code snippet produce?<pre class=\"ql-syntax\" spellcheck=\"false\">const arr = [1, 2, 3];\narr.slice(-2, 0);\n</pre>",
+        "correctIndex": 4
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "SyntaxError",
+          "TypeError",
+          "ReferenceError",
+          "None of the above"
+        ],
+
+        "question": "What type of error will the following code snippet produce?<pre class=\"ql-syntax\" spellcheck=\"false\">const greeting = 'Hello, world!';\n</pre>",
+        "correctIndex": 3
+      }
+    ]
+  },
+  {
+    "title": "Module 41: Few More JavaScript Debug",
+    "details": [
+      {
+        "type": "mcq",
+        "options": [
+          "addBtn.className = \"btn-primary\";",
+          "addBtn.classList.add('btn-primary')",
+          "addBtn.setAttribute(\"class\", \"btn-primary\");",
+          "All of the above"
+        ],
+
+        "question": "How can you add a class name to addBtn?(Do some research on it)<pre class=\"ql-syntax\" spellcheck=\"false\">const addBtn = document.getElementById(\"add-btn\");\n</pre>",
+        "correctIndex": 3
+      },
+      {
+        "type": "mcq",
+        "options": ["h1", "NaN", "undefined", "None of the above"],
+
+        "question": "<pre class=\"ql-syntax\" spellcheck=\"false\">const sum = (p, q) =&gt; parseInt(p) + q;\nconst total = sum(\"h\", 1);\n</pre>The value of total will be?",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": ["true", "false", "-5", "60"],
+
+        "question": "What is the output? <pre class=\"ql-syntax\" spellcheck=\"false\">const marks= 60;\nconst resubmit = -5; \nconsole.log(!(marks &gt; 0 || resubmit &gt; 0));\n</pre>",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "console.log(Object.length(person).keys);",
+          "console.log(Object.keys.length);",
+          "console.log(Object.keys(person).length);",
+          "No way for finding it out"
+        ],
+
+        "question": "<pre class=\"ql-syntax\" spellcheck=\"false\">const person = {\n  name: \"hero\", \n  id: 101, \n  address: \"BD\",\n  postalCode: 40321\n};\n</pre>How will you find out the numbers of properties present in an object person?",
+        "correctIndex": 2
+      },
+      {
+        "type": "mcq",
+        "options": ["true", "false", "0", "-1"],
+
+        "question": "<pre class=\"ql-syntax\" spellcheck=\"false\">const animals = ['cat', 'dog', 'rat'];\nconsole.log(animals.includes('Cat'));\n</pre>What will be the output?",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": ["1", "-1", "20", "0"],
+
+        "question": "<pre class=\"ql-syntax\" spellcheck=\"false\">const unique = array =&gt; array.indexOf(“21”);\nconst array = [2,3,4,5,2];\n</pre>If you call the unique function and pass the array what will you get?",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": ["5", "23", "32", "undefined"],
+
+        "question": "<pre class=\"ql-syntax\" spellcheck=\"false\">const add =(para1 , para2) =&gt; para2 + para1\n</pre>What will be the return of add(“2”,3)?",
+        "correctIndex": 2
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "assignment error",
+          "Reference error",
+          "logical error",
+          "nothing"
+        ],
+
+        "question": "<pre class=\"ql-syntax\" spellcheck=\"false\">const b=6\nb=6\nconsole.log(b);\n</pre>If you run the above code, which type of error will you get?",
+        "correctIndex": 0
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "a sequence of sentences that specifies a search pattern.",
+          "a sequence of words that specifies a search pattern.",
+          "a sequence of characters that specifies a search pattern.",
+          "I wanna cry . I am getting mad"
+        ],
+
+        "question": "What is a regular expression ?",
+        "correctIndex": 2
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "Uncaught Syntax Error",
+          "‘black’",
+          "Uncaught (in promise) TypeError",
+          "Uncaught Reference error"
+        ],
+
+        "question": "What would be the output?&nbsp;<pre class=\"ql-syntax\" spellcheck=\"false\">const colors&nbsp;= {mango: 'green', grapes: 'black', organe: 'yellow'};\nconsole.log(colors[grapes])\n</pre>",
+        "correctIndex": 3
+      }
+    ]
+  },
+  {
+    "title": "Module 42: Everything about browsers",
+    "details": [
+      {
+        "type": "mcq",
+        "options": ["true", "false", "Don't know"],
+
+        "question": "location===window.location is this true or false?",
+        "correctIndex": 0
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "to take input from users",
+          "to loop through an object",
+          "To show an output",
+          "all of the above"
+        ],
+
+        "question": "Why is prompt() used?",
+        "correctIndex": 0
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "Beautiful Object Model",
+          "Browser Objective Model",
+          "Beast Object Modules",
+          "Browser Object Model"
+        ],
+
+        "question": "Full form of BOM in Javascript is---",
+        "correctIndex": 3
+      },
+      {
+        "type": "mcq",
+        "options": ["Sources", "Network", "Performance", "Application"],
+
+        "question": "Which tab of the chrome browser will show you the cookies stored?",
+        "correctIndex": 3
+      },
+      {
+        "type": "mcq",
+        "options": ["location.assign;", "location.move;", "location.reload;"],
+
+        "question": "If you want to visit \"https://www.google.com/\" from your site on a button click, which one should you use?",
+        "correctIndex": 0
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "cookies",
+          "local storage",
+          "session storage",
+          "None of the above"
+        ],
+
+        "question": "Which storage information will not remain after you close the browser?",
+        "correctIndex": 2
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "localStorage.storeItem()",
+          "localStorage.getItem()",
+          "localStorage.setItem()",
+          "localStorage.saveItem()"
+        ],
+
+        "question": "Which method will you use to store items in local storage?",
+        "correctIndex": 2
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "cookies are not sent to the server",
+          "cookies are sent to the server",
+          "Only Facebook is using cookies",
+          "Browser Cookies are edible"
+        ],
+
+        "question": "Which one is true?",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": ["window.cookie", "window.cookieStore", "document.cookie"],
+
+        "question": "Which one will return you all the cookies in a string?",
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "title": "Module 43: Dev Tool and Debug projects",
+    "details": [
+      {
+        "type": "mcq",
+        "options": ["Ctrl + L", "Ctrl + C", "Ctrl + D", "Ctrl + X"],
+
+        "question": "The Keyboard Shortcut for clearing console in chrome dev tool is-",
+        "correctIndex": 0
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "Secure Service Layer",
+          "Secure Search Layer",
+          "Secure Server Layer",
+          "Secure Sockets Layer"
+        ],
+
+        "question": "What does SSL stand for? (Google it if needed)",
+        "correctIndex": 3
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "$(\"#btn\")",
+          "$(\"btn\")",
+          "select(\"btn\")",
+          "console.select(\"#btn\")"
+        ],
+
+        "question": "<pre class=\"ql-syntax\" spellcheck=\"false\">&lt;button id=\"btn\"&gt;Click&lt;/button&gt;\n</pre>The shortcut for selecting the button element in the chrome browser console is -",
+        "correctIndex": 0
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "XML HTTP request",
+          "XML Hypertext request",
+          "X-HTML request",
+          "X-ray Hiring Request"
+        ],
+
+        "question": "What does XHR stand for?",
+        "correctIndex": 0
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "console.data",
+          "console.table",
+          "console.dir",
+          "console.log"
+        ],
+
+        "question": "What console method will you call to see array data in a table?",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "DOM brakpoint",
+          "Event listener breakpoint",
+          "XHR breakpoint",
+          "All of the above"
+        ],
+
+        "question": "Which of the following are chrome dev tool breakpoints?",
+        "correctIndex": 3
+      },
+      {
+        "type": "mcq",
+        "options": ["An object", "A Function", "An Array", "A Method"],
+
+        "question": "What is console ?&nbsp;",
+        "correctIndex": 0
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "console.error()",
+          "console.warn()",
+          "console.warning()",
+          "console.bug()"
+        ],
+
+        "question": "How to show a warning in console ?&nbsp;",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "Network Tab",
+          "Source Tab",
+          "Memory Tab",
+          "Application Tab"
+        ],
+
+        "question": "Where we can see our code in dev tool?",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "Programming language",
+          "Collection of web development tools integrated into Google chrome browser",
+          "A code editor",
+          "Explains the structure of a website."
+        ],
+
+        "question": "What is a chrome dev tool?",
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "title": "Module 44: JavaScript You need to know for React",
+    "details": [
+      {
+        "type": "mcq",
+        "options": [
+          "Map returns an array but forEach returns null",
+          "Map returns an array but forEach returns undefined",
+          "Map returns an object but forEach returns an array",
+          "Both return an array"
+        ],
+
+        "question": "Which one is true about map and forEach when called on an empty array?",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": ["if ( { } )", "If ( [] )", "If ( -77)", "If ( 0 )"],
+
+        "question": "Which one is a falsy value here?",
+        "correctIndex": 3
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "undefined",
+          "{name: 'Hero', age: 34}",
+          "Hero 34",
+          "{ 'Hero', 34}"
+        ],
+
+        "question": "<pre class=\"ql-syntax\" spellcheck=\"false\">const name = 'Hero';const age = 34;\nconst person = {name, age}; console.log(person);\n</pre>What will be the output?(Try it out)",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "person.name",
+          "person[\"name\"]",
+          "person[name]",
+          "All of above"
+        ],
+
+        "question": "<pre class=\"ql-syntax\" spellcheck=\"false\">const person = { name : ”Babe” }\n</pre>Which one is not the correct syntax for accessing the object property?&nbsp;&nbsp;",
+        "correctIndex": 2
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "Destructuring of an object.",
+          "Destructuring of an array.",
+          "Destructuring in both array and object.",
+          "None of the above."
+        ],
+
+        "question": "<pre class=\"ql-syntax\" spellcheck=\"false\">const {name, country, age} = person;\n</pre>What does the above code snippet indicate?",
+        "correctIndex": 0
+      },
+      {
+        "type": "mcq",
+        "options": ["undefined", "Alice", "Lucy", "None of the above."],
+
+        "question": "What is the value of ratName?<pre class=\"ql-syntax\" spellcheck=\"false\">const adventurer = { name: 'Alice',cat: {name: 'Lucy'} };\nconst ratName = adventurer?.rat?.name;\n</pre>",
+        "correctIndex": 0
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "JSON.stringify()",
+          "JSON.object()",
+          "JSON.parse()",
+          "JSON.purse()"
+        ],
+
+        "question": "Which method converts JSON strings to javascript objects?",
+        "correctIndex": 2
+      },
+      {
+        "type": "mcq",
+        "options": ["Null", "null", "person is null", "person"],
+
+        "question": "<pre class=\"ql-syntax\" spellcheck=\"false\">let person =null;\nconsole.log(person ? person : \"person is null\");\n</pre>What will be the output of the above code?",
+        "correctIndex": 2
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "Returns a new array with the elements that pass the condition",
+          "Returns an empty array if no elements pass the test",
+          "Returns undefined when no elements pass the test",
+          "it is an array method"
+        ],
+
+        "question": "Which one is not true for the filter (array method filter)?",
+        "correctIndex": 2
+      },
+      {
+        "type": "mcq",
+        "options": ["true", "false", "‘true’", "‘false’"],
+
+        "question": "<pre class=\"ql-syntax\" spellcheck=\"false\">const obj = {a:1};\nconsole.log(Object.keys(obj).length===0);\n</pre>What will be the output?",
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "title": "Module 46: Modern Front-end core concepts",
+    "details": [
+      {
+        "type": "mcq",
+        "options": [
+          "Singara Porota Alurchop",
+          "Synchronize Paging Application",
+          "Single Page Application",
+          "Single Papa Application"
+        ],
+        "question": "<p>SPA stands for______</p>",
+        "correctIndex": 2
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "Similar in look, different in data",
+          "Large area broken down into smaller areas",
+          "Container of smaller parts of a website",
+          "All the above"
+        ],
+        "question": "<p>How will you recognise components in a website?</p>",
+        "correctIndex": 3
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "returns the web protocol used",
+          "returns the domain name of the web host",
+          "returns the href (URL) of the current page",
+          "returns the query string of a website"
+        ],
+        "question": "<p>What does window.location.href return?</p>",
+        "correctIndex": 2
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "const { name ,firstSerial } = nayok",
+          "const [ name ,firstSerial ] : nayok",
+          "const (name , firstSerial) = nayok",
+          "const name , firstSerial = nayok"
+        ],
+        "question": "<pre class=\"ql-syntax\" spellcheck=\"false\">const nayok = { \nname: “Salman Shah” , \nbirthPlace:”sylhet” , \nfirstSerial: “Pathor Somoy”\n}\n</pre><p>How will you destructure name and firstSerial from the above object?</p>",
+        "correctIndex": 0
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "Optimization",
+          "User Experience",
+          "Client side Rendering",
+          "All the above"
+        ],
+        "question": "<p>What are the advantages of a Single Page Application?</p>",
+        "correctIndex": 3
+      },
+      {
+        "type": "mcq",
+        "options": ["State", "Route", "Component", "props"],
+        "question": "<p>What will you use to create similar looking website parts that has different data?</p>",
+        "correctIndex": 2
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "&lt;li&gt;Programming&lt;/li&gt;&lt;li&gt;Hero&lt;/li&gt;",
+          "Programming-Hero",
+          "&lt;li&gt;Programming-Hero&lt;/li&gt;",
+          "&lt;li&gt;Hero&lt;/li&gt;&lt;li&gt;Programming&lt;/li&gt;"
+        ],
+        "question": "<pre class=\"ql-syntax\" spellcheck=\"false\">let ul = `&lt;li&gt;Programming&lt;li&gt;`;&nbsp;\nul +=&nbsp;`&lt;li&gt;Hero&lt;li&gt;`;&nbsp;\nconsole.log(ul);\n</pre><p>What will you get?</p>",
+        "correctIndex": 0
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "Web Application data that could change",
+          "Web application data that never change",
+          "Water is state",
+          "State is a temperature"
+        ],
+        "question": "<p>What is a website state?</p>",
+        "correctIndex": 0
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "’https://react.dev/learn/tutorial-tic-tac-toe’",
+          "'/learn/tutorial-tic-tac-toe'",
+          "’ ’",
+          "'/tutorial-tic-tac-toe'"
+        ],
+        "question": "<p>Suppose you&nbsp;open “https://react.dev/learn/tutorial-tic-tac-toe” in your browser and write location.pathname in your browser console . What will you get?</p>",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "Define the URL and based on the URL set different parts of the website",
+          "Route to reach a destination starting from one destination",
+          "Websites don't need to walk...why are you talking about routing?"
+        ],
+        "question": "<p>What is routing?</p>",
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "title": "Module 47: React Core Concepts, JSX, props, state",
+    "details": [
+      {
+        "type": "mcq",
+        "options": [
+          "building User Interface",
+          "building Database",
+          "building User Data Flow",
+          "building Shop"
+        ],
+        "_id": "64180ee70b001f58aa8763a2",
+        "question": "<p>React is mainly used&nbsp;for _______ (if needed, google it)</p>",
+        "correctIndex": 0
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "class = “myClass”",
+          "Class = “myClass”",
+          "className = “myClass”",
+          "I don’t know"
+        ],
+        "_id": "64180ee70b001f58aa8763a3",
+        "question": "<p>How do you declare a class called “myClass” in react?</p>",
+        "correctIndex": 2
+      },
+      {
+        "type": "mcq",
+        "options": ["filter", "find", "map", "for"],
+        "_id": "64180ee70b001f58aa8763a4",
+        "question": "<p>Which method will you use in react to display components for each object in an array?</p>",
+        "correctIndex": 2
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "const { name, setName } = useState(“JingaLala”);",
+          "[name, setName] = UseState(“JingaLala”);",
+          "const ( name, setName ) = useState(“JingaLala”);",
+          "const [name, setName] = useState(“JingaLala”);"
+        ],
+        "_id": "64180ee70b001f58aa8763a5",
+        "question": "<p>How will create a state with a default value “JingaLala”?</p>",
+        "correctIndex": 3
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "We should use class instead of className",
+          "class is a reserved keyword in javascript",
+          "We can use any name",
+          "I don't know"
+        ],
+        "_id": "64180ee70b001f58aa8763a6",
+        "question": "<p>Why can’t we declare a class with the “ class” keyword in React?</p>",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "Javascript Html",
+          "Javascript XML",
+          "React XML",
+          "Javascript Http"
+        ],
+        "_id": "64180ee70b001f58aa8763a7",
+        "question": "<p>What is&nbsp;JSX?</p>",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": ["Uppercase", "Lowercase", "I can use Both"],
+        "_id": "64180ee70b001f58aa8763a8",
+        "question": "<p>When creating a component in React, the first letter of that function name should be in ____</p>",
+        "correctIndex": 0
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "[singer.name]",
+          "{singer.name}",
+          "{singer.evaRahman}",
+          "(singer.name}"
+        ],
+        "_id": "64180ee70b001f58aa8763a9",
+        "question": "<p>How would you show the singer's name in the output using React JSX?</p><pre class=\"ql-syntax\" spellcheck=\"false\">const singer = {name: “Eva Rahman”}\n&lt;h1&gt; My Favorite Singer : _____?_____ &lt;/h1&gt;\n</pre>",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "function nayika() { return &lt;h3&gt;Mousumi &lt;/h3&gt;}",
+          "function Nokiya() [ return &lt;h3&gt; Mousumi &lt;h3&gt;]",
+          "function Nayika() ( return &lt;h3&gt; Mousumi &lt;/h3&gt;)",
+          "function Nayika() { return &lt;h3&gt; Mousumi &lt;/h3&gt;}"
+        ],
+        "_id": "64180ee70b001f58aa8763aa",
+        "question": "<p>What is the correct way of creating a component in react?</p>",
+        "correctIndex": 3
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "<div style =myStyle> Hey React Mama, I am your Vaghina </div>",
+          "<div style : ”myStyle”> Hey React Mama, I am your Vaghina </div>",
+          "<div style={myStyle}> Hey React Mama, I am your Vaghina </div>",
+          "<div style=”{myStyle}”> Hey React Mama, I am your Vaghina </div>"
+        ],
+        "_id": "64180ee70b001f58aa8763ab",
+        "question": "<pre class=\"ql-syntax\" spellcheck=\"false\">const myStyle= {backgroundColor: “hotpink”}\n</pre><p>How can you apply the above style to a div in react?</p>",
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "title": "Module 48: Simple React Rest Countries",
+    "details": [
+      {
+        "type": "mcq",
+        "options": ["rcc", "rsc", "rsf", "rrs"],
+        "_id": "64198c81e67f8a58839344a9",
+        "question": "<p>Which snippet is used to make a react functional component?</p>",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": ["setState", "useStated", "setStates", "useState"],
+        "_id": "64198c81e67f8a58839344aa",
+        "question": "<pre class=\"ql-syntax\" spellcheck=\"false\">const [count , setCount]=_____?_____(0)\n</pre><p>What should be written in the blank?</p>",
+        "correctIndex": 3
+      },
+      {
+        "type": "mcq",
+        "options": ["npx run build", "npm run build", "npm build", "npx build"],
+        "_id": "64198c81e67f8a58839344ab",
+        "question": "<p>Which of the following should you use to build your project?</p>",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": ["filter", "find", "map", "reduce"],
+        "_id": "64198c81e67f8a58839344ac",
+        "question": "<p>Which one of the following methods is mostly used to show data in UI from an array?</p>",
+        "correctIndex": 2
+      },
+      {
+        "type": "mcq",
+        "options": ["useState", "useAffect", "useEffect", "useRef"],
+        "_id": "64198c81e67f8a58839344ad",
+        "question": "<p>Which one is NOT a react hook?(google it)</p>",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "Inside of useFetch Hook",
+          "Inside of useState Hook",
+          "Inside of useEffect Hook",
+          "Inside of useAPI Hook"
+        ],
+        "_id": "64198c81e67f8a58839344ae",
+        "question": "<p>Where should you use the fetch method in React Application?</p>",
+        "correctIndex": 2
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "To set the loaded data from the API in a state variable",
+          "To keep your component in a state variable",
+          "To keep your unused clothes in a hook",
+          "I don’t know about useState, it’s a rumour in Harry Potter Movie"
+        ],
+        "_id": "64198c81e67f8a58839344af",
+        "question": "<p>Why do we use the useState hook in a react component?</p>",
+        "correctIndex": 0
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "To make codes cleaner, easy to use and easy to maintain, also easy to understand.",
+          "Nothing special, just to establish our wish",
+          "We must do this otherwise react won’t understand the compartments",
+          "There is nothing about components in react"
+        ],
+        "_id": "64198c81e67f8a58839344b0",
+        "question": "<p>Why do we use different components?&nbsp;</p>",
+        "correctIndex": 0
+      },
+      {
+        "type": "mcq",
+        "options": ["useState", "{}", "[]", "0"],
+        "_id": "64198c81e67f8a58839344b1",
+        "question": "<pre class=\"ql-syntax\" spellcheck=\"false\">useEffect( () =&gt;{ }, _____?_____ );\n</pre><p>What should you usually put here</p>",
+        "correctIndex": 2
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "&lt;Country data = {data} &gt; &lt;/Country&gt;",
+          "&lt;Country &gt; {data} &lt;/Country&gt;",
+          "&lt;country data={data}&gt; &lt;/country&gt;",
+          "&lt;Country&gt; &lt;/Country&gt;"
+        ],
+        "_id": "64198c81e67f8a58839344b2",
+        "question": "<p>How will you&nbsp;send&nbsp;data as props in Country.js?</p>",
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "title": "Module 49: (Conceptual) How React works and react project with vite",
+    "details": [
+      {
+        "type": "mcq",
+        "options": [
+          "React uses two-way data-binding",
+          "React uses one-way data-binding",
+          "React uses three dimensional data-binding"
+        ],
+        "_id": "641c3aa50b001f58aa87f984",
+        "question": "<p>Which one is true?</p>",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "Node Packet Manager",
+          "Navy Pabe Motivation",
+          "Node Package Module",
+          "Node Package Manager"
+        ],
+        "_id": "641c3aa50b001f58aa87f985",
+        "question": "<p>What is npm?</p>",
+        "correctIndex": 3
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "a component that has no state",
+          "A component  that has state",
+          "A component that is fool"
+        ],
+        "_id": "641c3aa50b001f58aa87f986",
+        "question": "<p>What is a Stateful component?</p>",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "React elements are plain objects, and are cheap to create",
+          "React elements are mutable. Once you create an element, you can change its children or attributes",
+          "Applications built with just React usually have a single root DOM node",
+          "React DOM compares the element and its children to the previous one, and only applies the DOM updates necessary"
+        ],
+        "_id": "641c3aa50b001f58aa87f987",
+        "question": "<p>Which one is not true?</p>",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "Diff Algorithm",
+          "Bluff Algorithm",
+          "Tiling Algorithm",
+          "React Algorithm."
+        ],
+        "_id": "641c3aa50b001f58aa87f988",
+        "question": "<p>Which algorithm React is used to compare dom?</p>",
+        "correctIndex": 0
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "You can build collections of elements and include them in JSX using curly braces {}.",
+          "A “key” is a special object you need to include when creating a single element",
+          "Keys help React identify which items have changed, are added, or are removed",
+          "When you don’t have stable IDs for rendered items, you may use the item index as a key"
+        ],
+        "_id": "641c3aa50b001f58aa87f989",
+        "question": "<p>Which one is not true?</p>",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "Javascript Interpreter",
+          "Javascript Compiler",
+          "Javascript Run Time",
+          "Javascript Engine"
+        ],
+        "_id": "641c3aa50b001f58aa87f98a",
+        "question": "<p>What is Babel?(search on google)</p>",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "const [salary, setSalary] = useState(0);",
+          "function salary(){ return <p>20000</p>}",
+          "const [salary, setSalary] = useState(20000);",
+          "useEffect( () => { console.log(20000) }, [] )"
+        ],
+        "_id": "641c3aa50b001f58aa87f98b",
+        "question": "<p>In a company starting salary is 20000? And based on performance it may change? Now in terms of react what will you do? (is it simple than you think)</p>",
+        "correctIndex": 2
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "React uses state to pass data to a child component",
+          "React uses useEffect to handle data change",
+          "React uses virtual dom to make rerender efficient",
+          "React uses useState to handle button click"
+        ],
+        "_id": "641c3aa50b001f58aa87f98c",
+        "question": "<p>Which one is true for React?</p>",
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "title": "Module 50: Simple React SPA with simple e-commerce",
+    "details": [
+      {
+        "type": "mcq",
+        "options": [
+          "We should not use it",
+          "It can  efficiently identify the changes in browser Dom ",
+          "It can  efficiently identify the changes in virtual dom",
+          "I don't know what  it is"
+        ],
+        "_id": "642032e105a1b2587de29afd",
+        "question": "<p>What is the purpose of the key prop used in react?</p>",
+        "correctIndex": 2
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "import { useState } from ‘react’",
+          "Import useState from ‘react’",
+          "import  usestate from ‘react",
+          "import  {useState} from ‘React’",
+          "I dont know"
+        ],
+        "_id": "642032e105a1b2587de29afe",
+        "question": "<p>How&nbsp;will you import useState in React?</p>",
+        "correctIndex": 0
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "count++",
+          "setCount(count+1)",
+          "count = count +1",
+          "Count -= 1"
+        ],
+        "_id": "642032e105a1b2587de29aff",
+        "question": "<pre class=\"ql-syntax\" spellcheck=\"false\">const [count, setCount]&nbsp;=useState(0)\n</pre><p>What should&nbsp;you do to increase the count state?</p>",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": ["No", "Yes", "Maybe", "Only on Sundays"],
+        "_id": "642032e105a1b2587de29b00",
+        "question": "<p>Can we pass a function through props?</p>",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "In A Component",
+          "In B component",
+          "In their Parent Component",
+          "In their Child  Component"
+        ],
+        "_id": "642032e105a1b2587de29b01",
+        "question": "<p>If A and B are siblings of components that share a common state, where should you declare the state?</p>",
+        "correctIndex": 2
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "It records important metadata about a project ",
+          "It records my changes in code",
+          "It records my VS code voice",
+          " We don’t need this file"
+        ],
+        "_id": "642032e105a1b2587de29b02",
+        "question": "<p>What does the package.json file do? (Search on Google Mama)</p>",
+        "correctIndex": 0
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "&lt;button onClick=” handleAdd(item) ”&gt; &lt;/button&gt;",
+          "&lt;button onClick={ handleAdd( item) }&gt; &lt;/button&gt;",
+          "&lt;button onClick= handleAdd( item ) &gt; &lt;/button&gt;",
+          "&lt;button onClick={ ()=> handleAdd(item) }&gt; &lt;/button&gt;"
+        ],
+        "_id": "642032e105a1b2587de29b03",
+        "question": "<p>Which is the correct way to call the function inside a&nbsp;button in React?</p><pre class=\"ql-syntax\" spellcheck=\"false\">const handleAdd = ( item ) =&gt; {&nbsp;&nbsp;&nbsp;\n  console.log(item)&nbsp;&nbsp;\n}\n</pre>",
+        "correctIndex": 3
+      },
+      {
+        "type": "mcq",
+        "options": ["onclick", "click", "onClick", "whileClick"],
+        "_id": "642032e105a1b2587de29b04",
+        "question": "<p>How will you set a clickhandler on a Button using React?</p><pre class=\"ql-syntax\" spellcheck=\"false\">&lt;button ________= {handleClick}&gt;Click me&lt;/button&gt;\n</pre>",
+        "correctIndex": 2
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "Inside Loop",
+          "Inside Conditions",
+          "At the top level of React function",
+          "Inside nested function"
+        ],
+        "_id": "642032e105a1b2587de29b05",
+        "question": "<p>Where can we call react hooks?</p>",
+        "correctIndex": 2
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "A programming language",
+          "A Javascript library",
+          "A Javascript runtime",
+          "A Javascript framework"
+        ],
+        "_id": "642032e105a1b2587de29b06",
+        "question": "<p>What is react?</p>",
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "title": "Module 51: (advanced) Cart calculation, Save and Retrieve cart",
+    "details": [
+      {
+        "type": "mcq",
+        "options": ["array", "object", "function", "all of the above"],
+        "_id": "64215a1fe67f8a58839454dd",
+        "question": "<p>What type of things can we send via props?</p>",
+        "correctIndex": 3
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "onClick={ findDevice }",
+          "onClick={ ()=>findDevice(parameter) }",
+          "onClick={ findDevice(parameter)   }",
+          "onclick={{ ()=>findDevice(parameter) }}"
+        ],
+        "_id": "64215a1fe67f8a58839454de",
+        "question": "<pre class=\"ql-syntax\" spellcheck=\"false\">const findDevice= (id) =&gt; testArr.find(p=&gt; p.id===id)\n</pre><p>if we want to add this function as an event handler to a button by passing a parameter, then which pattern is correct?</p>",
+        "correctIndex": 1
+      },
+      {
+        "type": "mcq",
+        "options": ["Undefined", "80", "79", "NaN"],
+        "_id": "64215a1fe67f8a58839454df",
+        "question": "<pre class=\"ql-syntax\" spellcheck=\"false\">const student1= {\n  name: \"rafique\", \n  marks: 79, \n  result: \"A+\"\n};\nconsole.log(student1.mark + 1);\n</pre>",
+        "correctIndex": 3
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "Install and save the specified package",
+          "Install all the modules listed as dependencies in package.json.",
+          "Both 1 and 2",
+          "None"
+        ],
+        "_id": "64215a1fe67f8a58839454e0",
+        "question": "<p>What is the purpose of “npm i --save &lt;packageName&gt;”? (google it)</p>",
+        "correctIndex": 0
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "package.json",
+          "README.md",
+          "components folder",
+          "src folder"
+        ],
+        "_id": "64215a1fe67f8a58839454e1",
+        "question": "<p>Where will you find information about all the packages that you have installed in your react app?</p>",
+        "correctIndex": 0
+      },
+      {
+        "type": "mcq",
+        "options": ["undefined", "{}", "[]", "null"],
+        "_id": "64215a1fe67f8a58839454e2",
+        "question": "<p>Suppose you are trying to access something from local storage using&nbsp;localStorage.getItem() method ,and the item is not exist there. Then you will get___?</p>",
+        "correctIndex": 3
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "&lt;HeroComponent hero={true} /&gt;",
+          "&lt;HeroComponent hero /&gt;",
+          "&lt;MyComponent prop=”true” /&gt;",
+          "Both 1 and 2"
+        ],
+        "_id": "64215a1fe67f8a58839454e3",
+        "question": "<p>How can you pass a boolean value (true) as the prop named hero?(if needed google it)</p>",
+        "correctIndex": 3
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "Using dot notation ",
+          "Using square bracket notation",
+          "By destructuring",
+          "All of the above"
+        ],
+        "_id": "64215a1fe67f8a58839454e4",
+        "question": "<p>How we can access object properties?</p>",
+        "correctIndex": 3
+      },
+      {
+        "type": "mcq",
+        "options": ["true", "false", "Syntax Error", "undefined"],
+        "_id": "64215a1fe67f8a58839454e5",
+        "question": "<p>What will be printed on the console when the following code is executed in JavaScript?</p><pre class=\"ql-syntax\" spellcheck=\"false\">const obj = {name :'jack',age:27}\nconst a= 'name' in obj;\nconsole.log(a)\n</pre>",
+        "correctIndex": 0
+      },
+      {
+        "type": "mcq",
+        "options": [
+          "re-run the effect on every re-render.",
+          "re-run the effect when the values within the array change across re-renders.",
+          "It doesn’t affect the useEffect",
+          "I’ve never heard about dependency array."
+        ],
+        "_id": "64215a1fe67f8a58839454e6",
+        "question": "<p>What is the purpose of the dependency array in useEffect?&nbsp;</p>",
+        "correctIndex": 1
+      }
+    ]
+  }
+]
