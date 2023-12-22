@@ -1,0 +1,1 @@
+# 84-2 Data Fetching in server component(SSG)
